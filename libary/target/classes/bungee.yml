@@ -1,0 +1,4 @@
+main: ro.menastro.libary.LibaryBungee
+author: Menastro Development
+version: '1.0-SNAPSHOT'
+name: MenastroLibary

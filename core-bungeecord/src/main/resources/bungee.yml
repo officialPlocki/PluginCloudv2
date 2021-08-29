@@ -1,0 +1,3 @@
+name: MenastroBungeeCordCore
+version: '${project.version}'
+main: ro.menast.core.MenastroBungeeCordCore

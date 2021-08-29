@@ -1,0 +1,5 @@
+name: MenastroLibary
+version: '${project.version}'
+main: ro.menast.libary.LibarySpigot
+api-version: 1.16
+author: Menastro Development

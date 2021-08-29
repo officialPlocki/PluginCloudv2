@@ -1,0 +1,5 @@
+name: MenastroBungeeCordCore
+version: '1.0-SNAPSHOT'
+main: ro.menast.core.MenastroBungeeCordCore
+depends:
+  - MenastroLibary
