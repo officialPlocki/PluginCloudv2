@@ -12,9 +12,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>core-spigot</artifactId>
-    <packaging>jar</packaging>
-
     <name>Core Spigot</name>
 
     <build>
