@@ -12,22 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2440c005-1332-4a32-96bb-12762df83b55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-bungeecord/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/MenastroBungeeCordCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-bungeecord/src/main/resources/bungee.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-spigot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/CoreSpigot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-spigot/src/main/resources/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/LibaryBungee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/LibarySpigot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/resources/bungee.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/resources/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/Commands/GMCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +26,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +50,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1xQ90k7bGO8FT4oS8ogxp9AL6ot" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -85,6 +77,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.menastro-core build">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="core-common" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="core-common" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="libary build" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings">
@@ -247,5 +252,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
