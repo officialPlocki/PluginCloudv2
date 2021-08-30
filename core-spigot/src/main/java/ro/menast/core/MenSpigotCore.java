@@ -2,11 +2,12 @@ package ro.menast.core;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class CoreSpigot extends JavaPlugin {
+import java.io.File;
+
+public final class MenSpigotCore extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
 
     }
 

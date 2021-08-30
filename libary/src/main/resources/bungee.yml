@@ -1,4 +1,4 @@
 main: ro.menast.libary.LibaryBungee
 author: Menastro Development
 version: '${project.version}'
-name: MenastroLibary
+name: MenLibary

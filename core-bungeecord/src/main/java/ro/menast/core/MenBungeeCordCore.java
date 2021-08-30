@@ -2,7 +2,7 @@ package ro.menast.core;
 
 import net.md_5.bungee.api.plugin.Plugin;
 
-public final class MenastroBungeeCordCore extends Plugin {
+public final class MenBungeeCordCore extends Plugin {
 
     @Override
     public void onEnable() {

@@ -1,3 +1,5 @@
-name: MenastroBungeeCordCore
+name: MenBungeeCordCore
 version: '${project.version}'
-main: ro.menast.core.MenastroBungeeCordCore
+main: ro.menast.core.MenBungeeCordCore
+depends:
+  - MenLibary
