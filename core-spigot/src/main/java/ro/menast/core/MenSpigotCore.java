@@ -1,13 +1,19 @@
 package ro.menast.core;
 
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.io.File;
+import ro.menast.libary.utils.projects.ProjectManager;
+import ro.menast.libary.utils.projects.language.Language;
 
 public final class MenSpigotCore extends JavaPlugin {
 
+    private static ProjectManager projectManager;
+    private static Language lang;
+
+
     @Override
     public void onEnable() {
+        projectManager = new ProjectManager("SpigotCore");
+        lang = new Language("SpigotCore");
 
     }
 
@@ -15,4 +21,13 @@ public final class MenSpigotCore extends JavaPlugin {
     public void onDisable() {
         // Plugin shutdown logic
     }
+
+    public static Language getLanguage() {
+        return lang;
+    }
+
+    public static ProjectManager getProjectManager() {
+        return projectManager;
+    }
+
 }

@@ -1,4 +1,4 @@
-package ro.menast.core.Commands;
+package ro.menast.core.commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
@@ -10,7 +10,8 @@ import org.bukkit.entity.Player;
 public class GMCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        Player p = Bukkit.getPlayer(sender.getName());
+        Player p = (Player) sender;
+        assert p != null;
         if (p.hasPermission("Menastro.Gamemode")) {
             if (args.length == 1) {
                 if (args[0] == "0") {
@@ -43,10 +44,14 @@ public class GMCommand implements CommandExecutor {
                     }
                 } else {
                     p.sendMessage("§c/gm <0/1/2/3>");
+                    return false;
                 }
+                return true;
             } else {
                 p.sendMessage("§c/gm <0/1/2/3>");
+                return false;
             }
         }
+        return false;
     }
 }

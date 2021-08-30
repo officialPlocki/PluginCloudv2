@@ -1,8 +1,10 @@
-name: MenastroSpigotCore
+name: MenSpigotCore
 version: '1.0-SNAPSHOT'
-main: ro.menast.core.MenastroSpigotCore
-api-version: 1.17
+main: ro.menast.core.MenSpigotCore
+api-version: 1.16
 prefix: CORE
-depend:
-  - MenastroLibary
 author: Menastro Development
+depends:
+  - MenLibary
+loadbefore:
+  - MenLibary
