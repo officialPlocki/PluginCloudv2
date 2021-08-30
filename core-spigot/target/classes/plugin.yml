@@ -3,6 +3,4 @@ version: '1.0-SNAPSHOT'
 main: ro.menast.core.MenastroSpigotCore
 api-version: 1.17
 prefix: CORE
-depend:
-  - MenastroLibary
 author: Menastro Development
