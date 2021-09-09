@@ -1,6 +1,6 @@
 name: MenLibary
 version: '1.0-SNAPSHOT'
-main: ro.menast.libary.LibarySpigot
+main: ro.menast.libary.spigot.LibarySpigot
 api-version: 1.16
 author: Menastro Development
 softdepend:
