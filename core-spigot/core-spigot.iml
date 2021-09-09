@@ -24,7 +24,6 @@
     <orderEntry type="library" name="spigot-1.16.5" level="project" />
     <orderEntry type="library" name="spigot-1.8.8-R0.1-SNAPSHOT-latest" level="project" />
     <orderEntry type="library" name="Libary" level="project" />
-    <orderEntry type="module" module-name="core-common" />
-    <orderEntry type="module" module-name="libary" />
+    <orderEntry type="module" module-name="libary" scope="PROVIDED" />
   </component>
 </module>

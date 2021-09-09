@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="BungeeCordCore" />
       <artifact name="Libary" />
-      <artifact name="SpigotCore" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -12,17 +10,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="init 2">
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/PermissionList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/ProjectList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/ProjectManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/language/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/language/Languages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-bungeecord/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/Commands/GMCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/commands/GMCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/MenBungeeCordCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/MenBungeeCordCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-spigot/core-spigot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/core-spigot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/MenSpigotCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/MenSpigotCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/commands/GMCommand.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core-spigot/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/target/classes/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-spigot/target/classes/ro/menast/core/CoreSpigot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/LibaryBungee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/LibarySpigot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/filebuilder/FileBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/inventories/InventoryBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/inventories/ItemBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/inventories/PlayerHead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/money/BitcoinAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/money/CoinsAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/money/VaultEconomy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/mysql/MySQLService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/PermissionList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/ProjectList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/ProjectManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/language/Language.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/language/Languages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/resources/bungee.yml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/resources/bungee.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Libary/Libary.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Libary/Libary.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +51,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
@@ -67,6 +85,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/Libary/Libary.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.23122066" />
@@ -77,6 +96,7 @@
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\jars" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\libary\src\main\java" />
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\jars" />
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\libary\src" />
     </key>
@@ -202,12 +222,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2440c005-1332-4a32-96bb-12762df83b55" name="Changes" comment="" />
+      <changelist id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="init 2" />
       <created>1630276224373</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630276224373</updated>
       <workItem from="1630276225651" duration="2651000" />
+      <workItem from="1631174217639" duration="1273000" />
+      <workItem from="1631220444939" duration="2041000" />
     </task>
     <task id="LOCAL-00001" summary="init 2">
       <created>1630337792212</created>
@@ -223,33 +245,70 @@
     <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
-    <option featureType="dependencySupport" implementationName="java:net.md-5:bungeecord-protocol" />
     <option featureType="dependencySupport" implementationName="java:io.netty:netty-codec" />
     <option featureType="dependencySupport" implementationName="java:net.md-5:bungeecord-chat" />
-    <option featureType="dependencySupport" implementationName="java:se.llbit:jo-nbt" />
-    <option featureType="dependencySupport" implementationName="java:io.netty:netty-buffer" />
-    <option featureType="dependencySupport" implementationName="java:net.md-5:bungeecord-api" />
-    <option featureType="dependencySupport" implementationName="java:net.md-5:bungeecord-event" />
+    <option featureType="dependencySupport" implementationName="java:org.hamcrest:hamcrest-core" />
     <option featureType="dependencySupport" implementationName="java:io.netty:netty-resolver" />
-    <option featureType="dependencySupport" implementationName="java:io.netty:netty-common" />
-    <option featureType="dependencySupport" implementationName="java:ro.menast:core-common" />
+    <option featureType="dependencySupport" implementationName="java:com.googlecode.json-simple:json-simple" />
     <option featureType="dependencySupport" implementationName="java:com.google.code.gson:gson" />
-    <option featureType="dependencySupport" implementationName="java:net.sf.trove4j:core" />
     <option featureType="dependencySupport" implementationName="java:io.netty:netty-transport-native-unix-common" />
-    <option featureType="dependencySupport" implementationName="java:net.md-5:bungeecord-config" />
     <option featureType="dependencySupport" implementationName="java:io.netty:netty-transport" />
     <option featureType="dependencySupport" implementationName="java:com.google.guava:guava" />
     <option featureType="dependencySupport" implementationName="java:org.yaml:snakeyaml" />
+    <option featureType="dependencySupport" implementationName="java:net.md-5:bungeecord-protocol" />
+    <option featureType="dependencySupport" implementationName="java:se.llbit:jo-nbt" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-buffer" />
+    <option featureType="dependencySupport" implementationName="java:commons-lang:commons-lang" />
+    <option featureType="dependencySupport" implementationName="java:net.md-5:bungeecord-api" />
+    <option featureType="dependencySupport" implementationName="java:net.md-5:bungeecord-event" />
+    <option featureType="dependencySupport" implementationName="java:ro.menastro:libary" />
+    <option featureType="dependencySupport" implementationName="java:org.bukkit:bukkit" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-common" />
+    <option featureType="dependencySupport" implementationName="java:junit:junit" />
+    <option featureType="dependencySupport" implementationName="java:ro.menast:core-common" />
+    <option featureType="dependencySupport" implementationName="java:net.sf.trove4j:core" />
+    <option featureType="dependencySupport" implementationName="java:net.md-5:bungeecord-config" />
+    <option featureType="dependencySupport" implementationName="java:com.github.MilkBowl:VaultAPI" />
     <option featureType="dependencySupport" implementationName="java:net.md-5:brigadier" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="81abddd4-8642-491e-8bb9-77175365a75f">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Pflug/IdeaProjects/menastro-core/libary/src/main/java/ro/menast/libary/utils/inventories" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="81abddd4-8642-491e-8bb9-77175365a75f" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
