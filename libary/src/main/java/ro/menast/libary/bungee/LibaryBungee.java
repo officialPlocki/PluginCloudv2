@@ -6,7 +6,9 @@ import org.bukkit.Bukkit;
 import ro.menast.libary.bungee.utils.filebuilder.FileBuilder;
 import ro.menast.libary.bungee.utils.money.BitcoinAPI;
 import ro.menast.libary.bungee.utils.mysql.MySQLService;
+import ro.menast.libary.bungee.utils.permissions.AstropermsMySQL;
 import ro.menast.libary.bungee.utils.project.ProjectManager;
+import ro.menast.libary.bungee.utils.sync.OnlinePlayerData;
 
 public class LibaryBungee extends Plugin {
   private static Plugin instance;
@@ -24,15 +26,18 @@ public class LibaryBungee extends Plugin {
     Configuration conf = fb.getYaml();
     if (conf.get("mysql.host") == null || conf.get("mysql.host") == "") {
       conf.set("mysql.host", "localhost");
-      conf.set("mysql.port", Integer.valueOf(3306));
+      conf.set("mysql.port", 3306);
       conf.set("mysql.user", "root");
       conf.set("mysql.password", "abc123");
       conf.set("mysql.database", "core");
       fb.save();
     } 
     MySQLService.connect(conf.getString("mysql.host"), conf.getString("mysql.user"), conf.getString("mysql.database"), conf.getString("mysql.password"), conf.getString("mysql.port"));
+    MySQLService.setMaxConnections();
     mySQLService = new MySQLService();
     BitcoinAPI.setup();
+    AstropermsMySQL.setup();
+    OnlinePlayerData.OnlinePlayerDataMySQL.init();
   }
   
   public void onDisable() {}

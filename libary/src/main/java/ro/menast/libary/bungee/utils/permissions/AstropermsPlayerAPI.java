@@ -1,12 +1,16 @@
 package ro.menast.libary.bungee.utils.permissions;
 
-import net.md_5.bungee.api.connection.ProxiedPlayer;
+import ro.menast.libary.bungee.utils.player.Player;
 
 public class AstropermsPlayerAPI {
-  private final ProxiedPlayer p;
+  private final Player p;
   
-  public AstropermsPlayerAPI(ProxiedPlayer player) {
+  public AstropermsPlayerAPI(Player player) {
     this.p = player;
+  }
+
+  public AstropermsPlayerAPI(String uuid) {
+    this.p = new Player(uuid);
   }
   
   public boolean hasPermission(String inName) {
@@ -16,8 +20,8 @@ public class AstropermsPlayerAPI {
   public boolean isOp() {
     return false;
   }
-  
-  public ProxiedPlayer getPlayer() {
+
+  public Player getPlayer() {
     return this.p;
   }
   

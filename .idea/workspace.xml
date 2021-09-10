@@ -9,34 +9,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="init 2">
-      <change afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="init 3">
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/sync/OfflinePlayerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/sync/OnlinePlayerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/sync/PlayerDataMirror.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/sync/builder/OfflinePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/sync/builder/OfflinePlayerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/sync/builder/OnlinePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/sync/builder/OnlinePlayerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/player/PlayerAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OfflinePlayerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OnlinePlayerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/PlayerDataMirror.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/builder/OfflinePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/builder/OfflinePlayerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/builder/OnlinePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/builder/OnlinePlayerBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/MenBungeeCordCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/MenBungeeCordCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-spigot/core-spigot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/core-spigot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/MenSpigotCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/MenSpigotCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/commands/GMCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-spigot/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/target/classes/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/LibaryBungee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/LibarySpigot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/filebuilder/FileBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/inventories/InventoryBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/inventories/ItemBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/inventories/PlayerHead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/money/BitcoinAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/money/CoinsAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/money/VaultEconomy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/mysql/MySQLService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/PermissionList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/ProjectList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/ProjectManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/language/Language.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/utils/projects/language/Languages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/resources/bungee.yml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/resources/bungee.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/LibaryBungee.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/LibaryBungee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/permissions/AstropermsGroupAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/permissions/AstropermsGroupAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/permissions/AstropermsMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/permissions/AstropermsMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/permissions/AstropermsPlayerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/permissions/AstropermsPlayerAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/player/PlayerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/player/PlayerAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/LibarySpigot.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/LibarySpigot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/language/LanguageAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/language/LanguageAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/AstropermsMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/AstropermsMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/AstropermsPlayerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/AstropermsPlayerAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/PlayerData.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Libary/Libary.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Libary/Libary.jar" afterDir="false" />
     </list>
+    <list id="89913761-a681-4677-8259-42cf83f9d525" name="Changes by Marc Birnthaler" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +55,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -82,23 +91,32 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/Libary/Libary.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/sync" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.23122066" />
     <property name="project.structure.side.proportion" value="0.5657492" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\libary\src\main\java\ro\menast\libary\bungee\utils\sync" />
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\jars" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\libary\src\main\java" />
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\jars" />
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\libary\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ro.menast.libary.bungee.utils.sync" />
+      <recent name="ro.menast.libary.bungee.utils.player" />
+      <recent name="ro.menast.libary.spigot.utils.sync" />
+      <recent name="ro.menast.libary.spigot.utils.sync.builder" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.menastro-core build">
@@ -229,7 +247,8 @@
       <updated>1630276224373</updated>
       <workItem from="1630276225651" duration="2651000" />
       <workItem from="1631174217639" duration="1273000" />
-      <workItem from="1631220444939" duration="2041000" />
+      <workItem from="1631220444939" duration="3849000" />
+      <workItem from="1631230365425" duration="7589000" />
     </task>
     <task id="LOCAL-00001" summary="init 2">
       <created>1630337792212</created>
@@ -238,7 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630337792212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init 2">
+      <created>1631224002114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631224002114</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init 3">
+      <created>1631224143777</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631224143777</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +348,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 2" />
+    <MESSAGE value="init 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 3" />
   </component>
 </project>

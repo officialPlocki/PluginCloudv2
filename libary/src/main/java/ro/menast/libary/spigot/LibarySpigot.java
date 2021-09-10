@@ -8,6 +8,7 @@ import ro.menast.libary.bungee.utils.mysql.MySQLService;
 import ro.menast.libary.spigot.utils.filebuilder.FileBuilder;
 import ro.menast.libary.spigot.utils.permissions.AstropermsMySQL;
 import ro.menast.libary.spigot.utils.project.ProjectManager;
+import ro.menast.libary.spigot.utils.sync.OnlinePlayerData;
 
 public final class LibarySpigot extends JavaPlugin {
   private static ProjectManager projectManager;
@@ -25,16 +26,18 @@ public final class LibarySpigot extends JavaPlugin {
     YamlConfiguration conf = fb.getYaml();
     if (conf.get("mysql.host") == null || conf.get("mysql.host") == "") {
       conf.set("mysql.host", "localhost");
-      conf.set("mysql.port", Integer.valueOf(3306));
+      conf.set("mysql.port", 3306);
       conf.set("mysql.user", "root");
       conf.set("mysql.password", "abc123");
       conf.set("mysql.database", "core");
       fb.save();
     } 
     MySQLService.connect(conf.getString("mysql.host"), conf.getString("mysql.user"), conf.getString("mysql.database"), conf.getString("mysql.password"), conf.getString("mysql.port"));
+    MySQLService.setMaxConnections();
     mySQLService = new MySQLService();
     AstropermsMySQL.setup();
     BossbarLib.setHandler();
+    OnlinePlayerData.OnlinePlayerDataMySQL.init();
   }
   
   public void onDisable() {

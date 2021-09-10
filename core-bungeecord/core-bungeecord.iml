@@ -24,5 +24,6 @@
     <orderEntry type="library" name="waterfall-1.17-448" level="project" />
     <orderEntry type="library" name="Libary" level="project" />
     <orderEntry type="module" module-name="core-common" />
+    <orderEntry type="module" module-name="libary" />
   </component>
 </module>

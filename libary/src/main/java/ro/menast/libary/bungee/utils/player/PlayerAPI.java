@@ -1,6 +1,5 @@
 package ro.menast.libary.bungee.utils.player;
 
-import net.md_5.bungee.api.connection.ProxiedPlayer;
 import ro.menast.libary.bungee.utils.language.LanguageAPI;
 import ro.menast.libary.bungee.utils.permissions.AstropermsPlayerAPI;
 import ro.menast.libary.bungee.utils.permissions.Group;
@@ -9,7 +8,7 @@ public class PlayerAPI {
 
   private final AstropermsPlayerAPI astropermsPlayerAPI;
   
-  public PlayerAPI(ProxiedPlayer player) {
+  public PlayerAPI(Player player) {
     this.astropermsPlayerAPI = new AstropermsPlayerAPI(player);
   }
   

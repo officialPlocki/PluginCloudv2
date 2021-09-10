@@ -1,15 +1,20 @@
 package ro.menast.libary.spigot.utils.permissions;
 
+import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.permissions.PermissibleBase;
-import org.bukkit.permissions.ServerOperator;
 
 public class AstropermsPlayerAPI extends PermissibleBase {
-  private final Player p;
+  private final ro.menast.libary.spigot.utils.player.Player p;
   
   public AstropermsPlayerAPI(Player player) {
-    super((ServerOperator)player);
-    this.p = player;
+    super(player);
+    this.p = new ro.menast.libary.spigot.utils.player.Player(player.getUniqueId().toString());
+  }
+
+  public AstropermsPlayerAPI(String uuid) {
+    super(Bukkit.getPlayer(uuid));
+    this.p = new ro.menast.libary.spigot.utils.player.Player(uuid);
   }
   
   public boolean hasPermission(String inName) {
@@ -20,7 +25,7 @@ public class AstropermsPlayerAPI extends PermissibleBase {
     return false;
   }
   
-  public Player getPlayer() {
+  public ro.menast.libary.spigot.utils.player.Player getPlayer() {
     return this.p;
   }
   

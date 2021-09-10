@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-import org.bukkit.entity.Player;
+import ro.menast.libary.spigot.utils.player.Player;
 import ro.menast.libary.bungee.utils.mysql.MySQLService;
 import ro.menast.libary.spigot.LibarySpigot;
 
@@ -95,7 +95,7 @@ public class AstropermsMySQL {
   
   public boolean hasPermission(Player player, String permission) {
     try {
-      PreparedStatement ps = con.prepareStatement("SELECT permission FROM permUser WHERE uuid = '" + player.getUniqueId().toString() + "'");
+      PreparedStatement ps = con.prepareStatement("SELECT permission FROM userPermissions WHERE uuid = '" + player.getUniqueId().toString() + "'");
       ResultSet rs = mysql.getResult(ps);
       if (rs.next()) {
         String answer = rs.getString("permission");
