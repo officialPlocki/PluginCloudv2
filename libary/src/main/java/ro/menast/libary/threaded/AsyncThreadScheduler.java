@@ -2,6 +2,7 @@ package ro.menast.libary.threaded;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
 public class AsyncThreadScheduler {
@@ -22,7 +23,7 @@ public class AsyncThreadScheduler {
     ses.schedule(this.run, seconds, TimeUnit.SECONDS);
   }
   
-  public void scheduleAsyncTask(long initDelay, long milli) {
-    ses.scheduleAtFixedRate(this.run, initDelay, milli, TimeUnit.MILLISECONDS);
+  public ScheduledFuture<?> scheduleAsyncTask(long initDelay, long milli) {
+    return ses.scheduleAtFixedRate(this.run, initDelay, milli, TimeUnit.MILLISECONDS);
   }
 }

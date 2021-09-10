@@ -39,7 +39,7 @@ public final class LibarySpigot extends JavaPlugin {
     BossbarLib.setHandler();
     OnlinePlayerData.OnlinePlayerDataMySQL.init();
   }
-  
+
   public void onDisable() {
     MySQLService.disconnect();
   }

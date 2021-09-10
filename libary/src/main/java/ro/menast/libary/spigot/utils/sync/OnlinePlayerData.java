@@ -50,7 +50,7 @@ public class OnlinePlayerData {
       try {
         PreparedStatement ps = con.prepareStatement("CREATE TABLE IF NOT EXISTS player(uuid TEXT,name TEXT,ip TEXT);");
         mysql.executeUpdate(ps);
-        PreparedStatement ps1 = con.prepareStatement("CREATE TABLE IF NOT EXISTS serverSwitch(uuid TEXT,serverName TEXT,timestamp LONGBLOB);");
+        PreparedStatement ps1 = con.prepareStatement("CREATE TABLE IF NOT EXISTS serverSwitch(uuid TEXT,serverName TEXT,timestamp BIGINT);");
         mysql.executeUpdate(ps1);
       } catch (SQLException e) {
         executor.sendMessage(errorMessage);
