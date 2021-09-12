@@ -58,9 +58,10 @@ public class AstropermsCommand extends Command {
                             String msg = projectManager.getMessage("perms.user.info", playerAPI.getLanguage()).replaceAll("%target%", target.getName());
                         }
                     } else {
-                        OfflinePlayerData offlinePlayerData = new OfflinePlayerData((ProxiedPlayer) commandSender, projectManager.getMessage("", playerAPI.getLanguage()));
+                        OfflinePlayerData offlinePlayerData = new OfflinePlayerData((ProxiedPlayer) commandSender, projectManager.getMessage("perms.user.notfound", playerAPI.getLanguage()).replaceAll("%target%", strings[1]));
                         OfflinePlayer offlinePlayer = offlinePlayerData.getOfflinePlayer(strings[1]);
                         AstropermsPlayerAPI targetPerm = new AstropermsPlayerAPI(new Player(offlinePlayer.getUUID()));
+                        PlayerAPI tapi = new PlayerAPI(new Player(offlinePlayer.getUUID()));
 
                     }
                 }
