@@ -8,10 +8,12 @@ import ro.menast.core.MenBungeeCordCore;
 import ro.menast.libary.bungee.utils.language.LanguageAPI;
 import ro.menast.libary.bungee.utils.permissions.AstropermsGroupAPI;
 import ro.menast.libary.bungee.utils.permissions.AstropermsPlayerAPI;
+import ro.menast.libary.bungee.utils.permissions.Group;
 import ro.menast.libary.bungee.utils.permissions.PermissionableGroupBuilder;
 import ro.menast.libary.bungee.utils.player.Player;
 import ro.menast.libary.bungee.utils.player.PlayerAPI;
 import ro.menast.libary.bungee.utils.project.ProjectManager;
+import ro.menast.libary.bungee.utils.sync.OnlinePlayerData;
 import ro.menast.libary.bungee.utils.sync.builder.OfflinePlayer;
 import ro.menast.libary.bungee.utils.sync.OfflinePlayerData;
 
@@ -28,7 +30,7 @@ public class AstropermsCommand extends Command {
         ProjectManager projectManager = MenBungeeCordCore.getProjectManager();
         PlayerAPI playerAPI = new PlayerAPI(new Player(((ProxiedPlayer)commandSender).getUniqueId().toString()));
         AstropermsPlayerAPI astroPlayer = new AstropermsPlayerAPI(new Player(((ProxiedPlayer) commandSender).getUniqueId().toString()));
-        AstropermsGroupAPI astroGroup = new AstropermsGroupAPI(new PermissionableGroupBuilder(""));
+        AstropermsGroupAPI astroGroup = new AstropermsGroupAPI(astroPlayer.getGroupOfPlayer());
         //projekt permission hinzufügen bzw. auflisten (nur in main!): projectManager.addPermission("");
         //message getter: projectManager.getMessage("Hi %target%", playerAPI.getLanguage());
         //message placeholder replace: projectManager.getMessage("Hi %target%", playerAPI.getLanguage()).replaceAll("", "");
@@ -46,7 +48,14 @@ public class AstropermsCommand extends Command {
                         }
                     }
                     if(target != null) {
+                        if(strings[2].equalsIgnoreCase("info")) {
+                            PlayerAPI tapi = new PlayerAPI(new Player(target.getUniqueId().toString()));
+                            AstropermsPlayerAPI papi = new AstropermsPlayerAPI(new Player(target.getUniqueId().toString()));
 
+                            AstropermsGroupAPI gapi = new AstropermsGroupAPI(papi.getGroupOfPlayer());
+                            projectManager.setMessage("perms.user.info", LanguageAPI.langs.DE, "§bSpeierinfo für %target%:\n");
+                            String msg = projectManager.getMessage("perms.user.info", playerAPI.getLanguage()).replaceAll("%target%", target.getName());
+                        }
                     } else {
                         OfflinePlayerData offlinePlayerData = new OfflinePlayerData((ProxiedPlayer) commandSender, projectManager.getMessage("", playerAPI.getLanguage()));
                         OfflinePlayer offlinePlayer = offlinePlayerData.getOfflinePlayer(strings[1]);
@@ -63,19 +72,35 @@ public class AstropermsCommand extends Command {
 
     aperms listgroups
     aperms help
+
+
     aperms user ... info
+    aperms user ... permission info
+    aperms user ... group info
+    aperms user ... permission add ...
+    aperms user ... permission remove ...
+    aperms user ... group set ...
+
+
     aperms group ... delete
     aperms group ... create
     aperms group ... info
     aperms group ... listmembers
-    aperms uerr ... permission info
     aperms group ... permission info
-    aperms user ... group info
-    aperms user ... permission add ...
     aperms group ... permission add ...
-    aperms user ... permission remove ...
     aperms group ... permission remove ...
-    aperms user ... group set ...
+
+--------------------------------------------
+
+Variablen:
+
+
+
+    §7 -> normaler Text
+    §b -> Überschriften
+
+    §8 ->
+    §3
 
      */
 

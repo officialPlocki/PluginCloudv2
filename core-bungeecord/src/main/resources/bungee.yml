@@ -3,3 +3,4 @@ version: '${project.version}'
 main: ro.menast.core.MenBungeeCordCore
 depends:
   - MenLibary
+  - Protocolize

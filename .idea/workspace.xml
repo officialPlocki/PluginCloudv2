@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="BungeeCordCore" />
       <artifact name="Libary" />
+      <artifact name="SpigotCore" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,30 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="init 3">
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/BanAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/BanMySQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/IBan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/IBanBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/ArmorstandRotationAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/ItemArmorstandAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/ReplayAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanMySQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/IBan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/IBanBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/events/LoginListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/EventAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/libary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/libary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/resources/bungee.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/resources/bungee.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/LibarySpigot.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/LibarySpigot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/BanAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/MenPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/MobAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/ScoreboardAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/TitleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/TitleAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/WorldAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/WorldEditAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OnlinePlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OnlinePlayerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/threaded/AsyncThreadScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/threaded/AsyncThreadScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanMySQL.java" afterDir="false" />
+    </list>
+    <list id="4d3256c0-41e9-40ce-b003-76d29b6b099d" name="Changes by EinfachKonrad-A" comment="">
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" afterDir="false" />
     </list>
     <list id="89913761-a681-4677-8259-42cf83f9d525" name="Changes by Marc Birnthaler" comment="">
       <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" afterDir="false" />
@@ -68,6 +58,29 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java">
+      <ranges>
+        <range start1="10" end1="10" start2="10" end2="11" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
+        <range start1="14" end1="14" start2="15" end2="16" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
+        <range start1="30" end1="31" start2="32" end2="33" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
+        <range start1="36" end1="37" start2="38" end2="39" changelist="4d3256c0-41e9-40ce-b003-76d29b6b099d" />
+        <range start1="38" end1="38" start2="40" end2="41" changelist="4d3256c0-41e9-40ce-b003-76d29b6b099d" />
+        <range start1="48" end1="48" start2="51" end2="54" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
+        <range start1="49" end1="49" start2="55" end2="59" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
+        <range start1="50" end1="51" start2="60" end2="61" changelist="89913761-a681-4677-8259-42cf83f9d525" />
+        <range start1="53" end1="53" start2="63" end2="64" changelist="89913761-a681-4677-8259-42cf83f9d525" />
+        <range start1="62" end1="63" start2="73" end2="74" changelist="4d3256c0-41e9-40ce-b003-76d29b6b099d" />
+        <range start1="65" end1="65" start2="76" end2="78" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
+        <range start1="66" end1="66" start2="79" end2="86" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
+        <range start1="70" end1="71" start2="90" end2="90" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
+        <range start1="72" end1="74" start2="91" end2="91" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
+        <range start1="75" end1="76" start2="92" end2="92" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
+        <range start1="77" end1="78" start2="93" end2="105" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
+        <range start1="83" end1="83" start2="110" end2="112" changelist="4d3256c0-41e9-40ce-b003-76d29b6b099d" />
+      </ranges>
+    </file>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -244,7 +257,12 @@
       <workItem from="1631174217639" duration="1273000" />
       <workItem from="1631220444939" duration="3849000" />
       <workItem from="1631230365425" duration="8420000" />
-      <workItem from="1631246738597" duration="17759000" />
+      <workItem from="1631246738597" duration="22150000" />
+      <workItem from="1631334540704" duration="1834000" />
+      <workItem from="1631349507706" duration="619000" />
+      <workItem from="1631353863096" duration="1309000" />
+      <workItem from="1631430598744" duration="1491000" />
+      <workItem from="1631443271986" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="init 2">
       <created>1630337792212</created>
@@ -281,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631241300535</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init 3">
+      <created>1631295465146</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631295465146</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

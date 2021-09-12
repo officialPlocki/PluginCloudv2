@@ -83,7 +83,7 @@ public class BanMySQL {
         return false;
     }
 
-    private static void unBan(String banID) {
+    public static void unBan(String banID) {
         IBan ban = getBanInfo(banID);
         if(ban.isPerma()) {
             if(ban.isUnbannable()) {
