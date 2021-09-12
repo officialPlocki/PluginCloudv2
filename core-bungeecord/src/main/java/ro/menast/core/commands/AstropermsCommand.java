@@ -36,8 +36,9 @@ public class AstropermsCommand extends Command {
         //message placeholder replace: projectManager.getMessage("Hi %target%", playerAPI.getLanguage()).replaceAll("", "");
         //message setzen: projectManager.setMessage("", LanguageAPI.langs.DE, "");
         projectManager.setMessage("perms.user.notfound", LanguageAPI.langs.EN, "§cPlayer %target% not found!");
-        projectManager.setMessage("perms.user.notfound", LanguageAPI.langs.EN, "§cSpieler %target% nicht gefunden!");
+        projectManager.setMessage("perms.user.notfound", LanguageAPI.langs.DE, "§cSpieler %target% nicht gefunden!");
 
+        playerAPI.getLanguage();
         if(playerAPI.hasPermission("menastro.admin.perms")) {
             if(strings.length == 3) {
                 if(strings[0].equalsIgnoreCase("user")) {
@@ -69,7 +70,7 @@ public class AstropermsCommand extends Command {
     }
 
     /*
-
+Subcommands:
     aperms listgroups
     aperms help
 
@@ -105,3 +106,6 @@ Variablen:
      */
 
 }
+
+
+/* aperms user (user) arg */
