@@ -12,50 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="init 3">
-      <change afterPath="$PROJECT_DIR$/GameAPI/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAPI/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/GameAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/enums/EColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/enums/EGameType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/interfaces/IGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/interfaces/ITeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/utils/PlayerTeamRandomizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/utils/builder/GameBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/resources/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/MenBungeeCordCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/MenBungeeCordCore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-bungeecord/target/classes/bungee.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/target/classes/bungee.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-spigot/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-spigot/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/target/classes/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/filebuilder/FileBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/filebuilder/FileBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/mysql/MySQLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/mysql/MySQLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/LibarySpigot.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/LibarySpigot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/EventAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/filebuilder/FileBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/filebuilder/FileBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/money/CoinsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/money/CoinsAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/mysql/MySQLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/mysql/MySQLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/nick/NickManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/AstropermsMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/AstropermsMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OnlinePlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OnlinePlayerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/Sync.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/threaded/AsyncThreadScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/threaded/AsyncThreadScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/target/classes/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BungeeCordCore/BungeeCordCore.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BungeeCordCore/BungeeCordCore.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Libary/Libary.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Libary/Libary.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpigotCore/SpigotCore.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpigotCore/SpigotCore.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-common/core-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core-common/core-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-spigot/core-spigot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/core-spigot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/libary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/libary.iml" afterDir="false" />
     </list>
     <list id="4d3256c0-41e9-40ce-b003-76d29b6b099d" name="Changes by EinfachKonrad-A" comment="Changes by EinfachKonrad-A" />
-    <list id="89913761-a681-4677-8259-42cf83f9d525" name="Changes by Marc Birnthaler" comment="Changes by Marc Birnthaler nd EinfachKonrad-A">
-      <change beforePath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/MenSpigotCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/MenSpigotCore.java" afterDir="false" />
-    </list>
+    <list id="89913761-a681-4677-8259-42cf83f9d525" name="Changes by Marc Birnthaler" comment="Changes by Marc Birnthaler nd EinfachKonrad-A" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,6 +73,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />

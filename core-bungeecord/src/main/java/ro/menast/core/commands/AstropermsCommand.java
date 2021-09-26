@@ -54,7 +54,7 @@ public class AstropermsCommand extends Command {
                             AstropermsPlayerAPI papi = new AstropermsPlayerAPI(new Player(target.getUniqueId().toString()));
 
                             AstropermsGroupAPI gapi = new AstropermsGroupAPI(papi.getGroupOfPlayer());
-                            projectManager.setMessage("perms.user.info", LanguageAPI.langs.DE, "§bSpeierinfo für %target%:\n");
+                            projectManager.setMessage("perms.user.info", LanguageAPI.langs.DE, "\n---- §bSpeierinfo für %target%:\n§Rang: ----" + astroPlayer.getGroupOfPlayer() + "\n \n§lPermissionliste:\n" + target.getPermissions()  + "\n \n   ---------------------   ");
                             String msg = projectManager.getMessage("perms.user.info", playerAPI.getLanguage()).replaceAll("%target%", target.getName());
                         }
                     } else {
