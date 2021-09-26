@@ -11,7 +11,6 @@ import java.util.Objects;
 import org.bukkit.entity.Player;
 import ro.menast.libary.bungee.utils.mysql.MySQLService;
 import ro.menast.libary.spigot.LibarySpigot;
-import ro.menast.libary.spigot.utils.language.LanguageAPI;
 import ro.menast.libary.spigot.utils.player.PlayerAPI;
 import ro.menast.libary.spigot.utils.sync.builder.OnlinePlayer;
 import ro.menast.libary.spigot.utils.sync.builder.OnlinePlayerBuilder;
@@ -33,7 +32,7 @@ public class OnlinePlayerData {
   }
 
   public OnlinePlayer getOnlinePlayer(Player p) {
-    return new OnlinePlayerBuilder(p.getUniqueId().toString(), p.getAddress().getHostName(), p.getName());
+    return new OnlinePlayerBuilder(p.getUniqueId().toString(), Objects.requireNonNull(p.getAddress()).getHostName(), p.getName());
   }
 
   public List<OnlinePlayer> getAccounts(String ip) {

@@ -12,21 +12,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="init 3">
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/EventAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAPI/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAPI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/GameAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/enums/EColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/enums/EGameType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/interfaces/IGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/interfaces/ITeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/utils/PlayerTeamRandomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/java/ro/menast/gameapi/utils/builder/GameBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameAPI/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-bungeecord/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/resources/bungee.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/resources/bungee.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/target/classes/bungee.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/target/classes/bungee.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-spigot/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-spigot/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/filebuilder/FileBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/filebuilder/FileBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/mysql/MySQLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/mysql/MySQLService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/LibarySpigot.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/LibarySpigot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/apis/EventAPI.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/filebuilder/FileBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/filebuilder/FileBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/money/CoinsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/money/CoinsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/mysql/MySQLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/mysql/MySQLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/nick/NickManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/AstropermsMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/AstropermsMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OnlinePlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OnlinePlayerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/Sync.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/threaded/AsyncThreadScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/threaded/AsyncThreadScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BungeeCordCore/BungeeCordCore.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BungeeCordCore/BungeeCordCore.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Libary/Libary.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Libary/Libary.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpigotCore/SpigotCore.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpigotCore/SpigotCore.jar" afterDir="false" />
     </list>
-    <list id="4d3256c0-41e9-40ce-b003-76d29b6b099d" name="Changes by EinfachKonrad-A" comment="">
-      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" afterDir="false" />
-    </list>
-    <list id="89913761-a681-4677-8259-42cf83f9d525" name="Changes by Marc Birnthaler" comment="">
-      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" afterDir="false" />
+    <list id="4d3256c0-41e9-40ce-b003-76d29b6b099d" name="Changes by EinfachKonrad-A" comment="Changes by EinfachKonrad-A" />
+    <list id="89913761-a681-4677-8259-42cf83f9d525" name="Changes by Marc Birnthaler" comment="Changes by Marc Birnthaler nd EinfachKonrad-A">
+      <change beforePath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/MenSpigotCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/MenSpigotCore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -59,29 +87,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java">
-      <ranges>
-        <range start1="10" end1="10" start2="10" end2="11" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
-        <range start1="14" end1="14" start2="15" end2="16" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
-        <range start1="30" end1="31" start2="32" end2="33" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
-        <range start1="36" end1="37" start2="38" end2="39" changelist="4d3256c0-41e9-40ce-b003-76d29b6b099d" />
-        <range start1="38" end1="38" start2="40" end2="41" changelist="4d3256c0-41e9-40ce-b003-76d29b6b099d" />
-        <range start1="48" end1="48" start2="51" end2="54" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
-        <range start1="49" end1="49" start2="55" end2="59" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
-        <range start1="50" end1="51" start2="60" end2="61" changelist="89913761-a681-4677-8259-42cf83f9d525" />
-        <range start1="53" end1="53" start2="63" end2="64" changelist="89913761-a681-4677-8259-42cf83f9d525" />
-        <range start1="62" end1="63" start2="73" end2="74" changelist="4d3256c0-41e9-40ce-b003-76d29b6b099d" />
-        <range start1="65" end1="65" start2="76" end2="78" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
-        <range start1="66" end1="66" start2="79" end2="86" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
-        <range start1="70" end1="71" start2="90" end2="90" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
-        <range start1="72" end1="74" start2="91" end2="91" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
-        <range start1="75" end1="76" start2="92" end2="92" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
-        <range start1="77" end1="78" start2="93" end2="105" changelist="47d8c18e-1cab-465d-aa0f-d9832af438bb" />
-        <range start1="83" end1="83" start2="110" end2="112" changelist="4d3256c0-41e9-40ce-b003-76d29b6b099d" />
-      </ranges>
-    </file>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -91,22 +96,27 @@
     </option>
   </component>
   <component name="ProjectId" id="1xQ90k7bGO8FT4oS8ogxp9AL6ot" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="app.teamhub.trackedBranches" value="g0rghb/master" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jars/Replay.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.23122066" />
     <property name="project.structure.side.proportion" value="0.5657492" />
+    <property name="settings.editor.selected.configurable" value="sshConsole" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -127,7 +137,78 @@
       <recent name="ro.menast.libary.spigot.utils.sync.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.menastro-core build">
+  <component name="RunManager" selected="Application.cMain">
+    <configuration name="cMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.menast.gameapi.cMain" />
+      <module name="GameAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.menast.gameapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameAPI build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="Bundled (Maven 3)" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/GameAPI" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="libary build" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings">
@@ -244,6 +325,11 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.cMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -262,7 +348,19 @@
       <workItem from="1631349507706" duration="619000" />
       <workItem from="1631353863096" duration="1309000" />
       <workItem from="1631430598744" duration="1491000" />
-      <workItem from="1631443271986" duration="52000" />
+      <workItem from="1631443271986" duration="189000" />
+      <workItem from="1631457175572" duration="2717000" />
+      <workItem from="1631697416492" duration="617000" />
+      <workItem from="1631719216339" duration="3551000" />
+      <workItem from="1631875462169" duration="1033000" />
+      <workItem from="1631904722981" duration="965000" />
+      <workItem from="1631963212808" duration="4040000" />
+      <workItem from="1631978802026" duration="3912000" />
+      <workItem from="1632070854190" duration="1696000" />
+      <workItem from="1632143530968" duration="48000" />
+      <workItem from="1632489726183" duration="1147000" />
+      <workItem from="1632659415639" duration="2741000" />
+      <workItem from="1632669320434" duration="1389000" />
     </task>
     <task id="LOCAL-00001" summary="init 2">
       <created>1630337792212</created>
@@ -306,7 +404,28 @@
       <option name="project" value="LOCAL" />
       <updated>1631295465146</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="init 3">
+      <created>1631443429498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631443429498</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changes by EinfachKonrad-A">
+      <created>1631443439072</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631443439072</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changes by Marc Birnthaler nd EinfachKonrad-A">
+      <created>1631443448936</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631443448936</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,9 +433,11 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:io.netty:netty-codec" />
+    <option featureType="dependencySupport" implementationName="java:dev.simplix:protocolize-data-bundle" />
     <option featureType="dependencySupport" implementationName="java:net.md-5:bungeecord-chat" />
     <option featureType="dependencySupport" implementationName="java:org.hamcrest:hamcrest-core" />
     <option featureType="dependencySupport" implementationName="java:io.netty:netty-resolver" />
+    <option featureType="dependencySupport" implementationName="java:dev.simplix:protocolize-api" />
     <option featureType="dependencySupport" implementationName="java:com.googlecode.json-simple:json-simple" />
     <option featureType="dependencySupport" implementationName="java:com.google.code.gson:gson" />
     <option featureType="dependencySupport" implementationName="java:io.netty:netty-transport-native-unix-common" />
@@ -325,6 +446,7 @@
     <option featureType="dependencySupport" implementationName="java:org.yaml:snakeyaml" />
     <option featureType="dependencySupport" implementationName="java:net.md-5:bungeecord-protocol" />
     <option featureType="dependencySupport" implementationName="java:se.llbit:jo-nbt" />
+    <option featureType="dependencySupport" implementationName="java:org.spigotmc:spigot-api" />
     <option featureType="dependencySupport" implementationName="java:io.netty:netty-buffer" />
     <option featureType="dependencySupport" implementationName="java:commons-lang:commons-lang" />
     <option featureType="dependencySupport" implementationName="java:net.md-5:bungeecord-api" />
@@ -382,8 +504,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init 2" />
     <MESSAGE value="init 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 3" />
+    <MESSAGE value="Changes by EinfachKonrad-A" />
+    <MESSAGE value="Changes by Marc Birnthaler nd EinfachKonrad-A" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by Marc Birnthaler nd EinfachKonrad-A" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

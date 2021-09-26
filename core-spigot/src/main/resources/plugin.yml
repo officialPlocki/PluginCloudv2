@@ -1,6 +1,6 @@
 name: MenastroSpigotCore
 version: '${project.version}'
 main: ro.menast.core.MenastroSpigotCore
-api-version: 1.17
+api-version: 1.13
 prefix: CORE
 author: Menastro Development

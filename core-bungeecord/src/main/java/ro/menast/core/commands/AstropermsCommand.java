@@ -62,7 +62,6 @@ public class AstropermsCommand extends Command {
                         OfflinePlayer offlinePlayer = offlinePlayerData.getOfflinePlayer(strings[1]);
                         AstropermsPlayerAPI targetPerm = new AstropermsPlayerAPI(new Player(offlinePlayer.getUUID()));
                         PlayerAPI tapi = new PlayerAPI(new Player(offlinePlayer.getUUID()));
-
                     }
                 }
             }

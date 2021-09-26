@@ -10,12 +10,14 @@
         <module name="libary" />
         <module name="core-spigot" />
         <module name="core-bungeecord" />
+        <module name="GameAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="core-bungeecord" target="1.8" />
       <module name="core-common" target="1.8" />
       <module name="core-spigot" target="1.8" />
+      <module name="GameAPI" target="1.8" />
       <module name="libary" target="1.8" />
       <module name="menastro-core" target="1.5" />
     </bytecodeTargetLevel>

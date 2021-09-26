@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 import ro.menast.libary.spigot.utils.player.Player;
-import ro.menast.libary.bungee.utils.mysql.MySQLService;
+import ro.menast.libary.spigot.utils.mysql.MySQLService;
 import ro.menast.libary.spigot.LibarySpigot;
 
 public class AstropermsMySQL {

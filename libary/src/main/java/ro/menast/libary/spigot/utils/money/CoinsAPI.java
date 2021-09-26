@@ -5,12 +5,15 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
+import ro.menast.libary.spigot.LibarySpigot;
 import ro.menast.libary.spigot.utils.mysql.MySQLService;
 
 public class CoinsAPI {
+
+  private static MySQLService service = LibarySpigot.getMySQL();
+
   public static void addCoins(OfflinePlayer p, int amount) {
     try {
-      MySQLService service = new MySQLService();
       PreparedStatement ps = service.getConnection().prepareStatement("UPDATE coins SET playerCoins = ? WHERE UUID = ?");
       ps.setInt(1, getCoins(p) + amount);
       ps.setString(2, p.getUniqueId().toString());
@@ -20,7 +23,6 @@ public class CoinsAPI {
   
   public static void resetCoins(OfflinePlayer p) {
     try {
-      MySQLService service = new MySQLService();
       PreparedStatement ps = service.getConnection().prepareStatement("UPDATE coins SET playerCoins = ? WHERE UUID = ?");
       ps.setInt(1, 0);
       ps.setString(2, p.getUniqueId().toString());
@@ -30,7 +32,6 @@ public class CoinsAPI {
   
   public static void setCoins(OfflinePlayer p, int amount) {
     try {
-      MySQLService service = new MySQLService();
       PreparedStatement ps = service.getConnection().prepareStatement("UPDATE coins SET playerCoins = ? WHERE UUID = ?");
       ps.setInt(1, amount);
       ps.setString(2, p.getUniqueId().toString());
@@ -40,7 +41,6 @@ public class CoinsAPI {
   
   public static void removeCoins(OfflinePlayer p, int amount) {
     try {
-      MySQLService service = new MySQLService();
       PreparedStatement ps = service.getConnection().prepareStatement("UPDATE coins SET playerCoins = ? WHERE UUID = ?");
       ps.setInt(1, getCoins(p) - amount);
       ps.setString(2, p.getUniqueId().toString());
@@ -50,7 +50,6 @@ public class CoinsAPI {
   
   public static int getCoins(OfflinePlayer p) {
     try {
-      MySQLService service = new MySQLService();
       PreparedStatement ps = service.getConnection().prepareStatement("SELECT playerCoins FROM coins WHERE UUID = ?");
       ps.setString(1, p.getUniqueId().toString());
       ResultSet rs = service.getResult(ps);
@@ -70,7 +69,6 @@ public class CoinsAPI {
   
   public static void setupPlayer(OfflinePlayer p) {
     try {
-      MySQLService service = new MySQLService();
       PreparedStatement ps = service.getConnection().prepareStatement("INSERT INTO coins(playerCoins,UUID) VALUES (?,?)");
       ps.setInt(1, 0);
       ps.setString(2, p.getUniqueId().toString());
@@ -80,7 +78,6 @@ public class CoinsAPI {
   
   public static void addCoins(Player p, int amount) {
     try {
-      MySQLService service = new MySQLService();
       PreparedStatement ps = service.getConnection().prepareStatement("UPDATE coins SET playerCoins = ? WHERE UUID = ?");
       ps.setInt(1, getCoins(p) + amount);
       ps.setString(2, p.getUniqueId().toString());
@@ -90,7 +87,6 @@ public class CoinsAPI {
   
   public static void resetCoins(Player p) {
     try {
-      MySQLService service = new MySQLService();
       PreparedStatement ps = service.getConnection().prepareStatement("UPDATE coins SET playerCoins = ? WHERE UUID = ?");
       ps.setInt(1, 0);
       ps.setString(2, p.getUniqueId().toString());
@@ -100,7 +96,6 @@ public class CoinsAPI {
   
   public static void setCoins(Player p, int amount) {
     try {
-      MySQLService service = new MySQLService();
       PreparedStatement ps = service.getConnection().prepareStatement("UPDATE coins SET playerCoins = ? WHERE UUID = ?");
       ps.setInt(1, amount);
       ps.setString(2, p.getUniqueId().toString());
@@ -110,7 +105,6 @@ public class CoinsAPI {
   
   public static void removeCoins(Player p, int amount) {
     try {
-      MySQLService service = new MySQLService();
       PreparedStatement ps = service.getConnection().prepareStatement("UPDATE coins SET playerCoins = ? WHERE UUID = ?");
       ps.setInt(1, getCoins(p) - amount);
       ps.setString(2, p.getUniqueId().toString());
@@ -120,7 +114,6 @@ public class CoinsAPI {
   
   public static int getCoins(Player p) {
     try {
-      MySQLService service = new MySQLService();
       PreparedStatement ps = service.getConnection().prepareStatement("SELECT playerCoins FROM coins WHERE UUID = ?");
       ps.setString(1, p.getUniqueId().toString());
       ResultSet rs = service.getResult(ps);
@@ -140,7 +133,6 @@ public class CoinsAPI {
   
   public static void setupPlayer(Player p) {
     try {
-      MySQLService service = new MySQLService();
       PreparedStatement ps = service.getConnection().prepareStatement("INSERT INTO coins(playerCoins,UUID) VALUES (?,?)");
       ps.setInt(1, 0);
       ps.setString(2, p.getUniqueId().toString());

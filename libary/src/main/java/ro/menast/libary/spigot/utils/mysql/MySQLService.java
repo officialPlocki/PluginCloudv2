@@ -58,4 +58,12 @@ public class MySQLService {
       throwables.printStackTrace();
     } 
   }
+
+  public void executeUpdate(String statement) {
+    try {
+      con.prepareStatement(statement).executeUpdate();
+    } catch (SQLException throwables) {
+      throwables.printStackTrace();
+    }
+  }
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GameAPI/GameAPI.iml" filepath="$PROJECT_DIR$/GameAPI/GameAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" filepath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-common/core-common.iml" filepath="$PROJECT_DIR$/core-common/core-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-spigot/core-spigot.iml" filepath="$PROJECT_DIR$/core-spigot/core-spigot.iml" />

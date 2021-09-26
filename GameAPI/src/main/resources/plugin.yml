@@ -1,0 +1,13 @@
+name: GameAPI
+version: '${project.version}'
+main: ro.menast.gameapi.GameAPI
+api-version: 1.13
+prefix: GAMEAPI
+load: STARTUP
+loadbefore:
+  - MenLibary
+depend:
+  - MenLibary
+authors:
+  - Menastro Development
+description: The Menastro GameAPI for Spigot

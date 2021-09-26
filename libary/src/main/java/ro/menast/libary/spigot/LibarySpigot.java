@@ -3,11 +3,8 @@ package ro.menast.libary.spigot;
 import me.tigerhix.lib.bossbar.BossbarLib;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.event.EventPriority;
-import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
-import ro.menast.libary.bungee.utils.mysql.MySQLService;
-import ro.menast.libary.spigot.apis.EventAPI;
+import ro.menast.libary.spigot.utils.mysql.MySQLService;
 import ro.menast.libary.spigot.utils.filebuilder.FileBuilder;
 import ro.menast.libary.spigot.utils.permissions.AstropermsMySQL;
 import ro.menast.libary.spigot.utils.project.ProjectManager;
@@ -36,7 +33,7 @@ public final class LibarySpigot extends JavaPlugin {
       fb.save();
     } 
     MySQLService.connect(conf.getString("mysql.host"), conf.getString("mysql.user"), conf.getString("mysql.database"), conf.getString("mysql.password"), conf.getString("mysql.port"));
-    MySQLService.setMaxConnections();
+    //MySQLService.setMaxConnections();
     mySQLService = new MySQLService();
     AstropermsMySQL.setup();
     BossbarLib.setHandler();

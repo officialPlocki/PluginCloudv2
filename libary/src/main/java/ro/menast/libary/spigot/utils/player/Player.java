@@ -21,6 +21,7 @@ public class Player {
         }
         return this;
     }
+
     public String getUniqueId() {
         return uuid;
     }

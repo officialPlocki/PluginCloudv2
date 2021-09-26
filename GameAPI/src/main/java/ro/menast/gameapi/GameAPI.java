@@ -1,0 +1,17 @@
+package ro.menast.gameapi;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public final class GameAPI extends JavaPlugin {
+
+    @Override
+    public void onEnable() {
+        // Plugin startup logic
+
+    }
+
+    @Override
+    public void onDisable() {
+        // Plugin shutdown logic
+    }
+}

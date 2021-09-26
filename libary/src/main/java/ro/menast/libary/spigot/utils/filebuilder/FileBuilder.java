@@ -5,8 +5,8 @@ import java.io.IOException;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 public class FileBuilder {
+
   private final File file;
-  
   private final YamlConfiguration yml;
   
   public FileBuilder(String path) {

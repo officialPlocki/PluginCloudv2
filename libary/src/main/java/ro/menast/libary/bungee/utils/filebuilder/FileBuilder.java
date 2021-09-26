@@ -7,10 +7,9 @@ import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;
 
 public class FileBuilder {
+
   private final File file;
-  
   private final ConfigurationProvider raw;
-  
   private Configuration yml;
   
   public FileBuilder(String path) {
