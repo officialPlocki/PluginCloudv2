@@ -54,6 +54,7 @@ public class AstropermsCommand extends Command {
                             AstropermsPlayerAPI papi = new AstropermsPlayerAPI(new Player(target.getUniqueId().toString()));
 
                             AstropermsGroupAPI gapi = new AstropermsGroupAPI(papi.getGroupOfPlayer());
+                            projectManager.setMessage("perms.user.info", LanguageAPI.langs.EN, "\n---- §bPlayerinfo of %target%:\n§Rank: ----" + astroPlayer.getGroupOfPlayer() + "\n \n§lPermissionlist:\n" + target.getPermissions()  + "\n \n   ---------------------   ");
                             projectManager.setMessage("perms.user.info", LanguageAPI.langs.DE, "\n---- §bSpeierinfo für %target%:\n§Rang: ----" + astroPlayer.getGroupOfPlayer() + "\n \n§lPermissionliste:\n" + target.getPermissions()  + "\n \n   ---------------------   ");
                             String msg = projectManager.getMessage("perms.user.info", playerAPI.getLanguage()).replaceAll("%target%", target.getName());
                         }
@@ -64,6 +65,47 @@ public class AstropermsCommand extends Command {
                         PlayerAPI tapi = new PlayerAPI(new Player(offlinePlayer.getUUID()));
                     }
                 }
+                if(strings[0].equalsIgnoreCase("user")) {
+                    ProxiedPlayer target = null;
+                    for (ProxiedPlayer all : BungeeCord.getInstance().getPlayers()) {
+                        if (all.getName().equalsIgnoreCase(strings[1])) {
+                            target = all;
+                        }
+                    }
+                    if(target != null) {
+                        if(strings[2].equalsIgnoreCase("info")) {
+                            PlayerAPI tapi = new PlayerAPI(new Player(target.getUniqueId().toString()));
+                            AstropermsPlayerAPI papi = new AstropermsPlayerAPI(new Player(target.getUniqueId().toString()));
+
+                            AstropermsGroupAPI gapi = new AstropermsGroupAPI(papi.getGroupOfPlayer());
+                            projectManager.setMessage("perms.user.info", LanguageAPI.langs.EN, "\n---- §bPlayerinfo of %target%:\n§Rank: ----" + astroPlayer.getGroupOfPlayer() + "\n \n§lPermissionlist:\n" + target.getPermissions()  + "\n \n   ---------------------   ");
+                            projectManager.setMessage("perms.user.info", LanguageAPI.langs.DE, "\n---- §bSpeierinfo für %target%:\n§Rang: ----" + astroPlayer.getGroupOfPlayer() + "\n \n§lPermissionliste:\n" + target.getPermissions()  + "\n \n   ---------------------   ");
+                            String msg = projectManager.getMessage("perms.user.info", playerAPI.getLanguage()).replaceAll("%target%", target.getName());
+                        }
+                }
+            } else if(strings[0].equalsIgnoreCase("group")) {
+                    ProxiedPlayer target = null;
+                    for(ProxiedPlayer all : BungeeCord.getInstance().getPlayers()) {
+                        if(all.getName().equalsIgnoreCase(strings[1])) {
+                            target = all;
+                        }
+                    }
+                    if(target != null) {
+                        if(strings[2].equalsIgnoreCase("info")) {
+                            PlayerAPI tapi = new PlayerAPI(new Player(target.getUniqueId().toString()));
+                            AstropermsPlayerAPI papi = new AstropermsPlayerAPI(new Player(target.getUniqueId().toString()));
+
+                            AstropermsGroupAPI gapi = new AstropermsGroupAPI(papi.getGroupOfPlayer());
+                            projectManager.setMessage("perms.group.info", LanguageAPI.langs.EN, "\n---- §bGroupinfo of %target%:\n§Rank: ----" + astroPlayer.getGroupOfPlayer() + "\n \n§lPermissionlist:\n" + target.getPermissions()  + "\n \n   ---------------------   ");
+                            projectManager.setMessage("perms.group.info", LanguageAPI.langs.DE, "\n---- §bGruppeninfo für %target%:\n§lPermissionliste:\n" + target.getPermissions()  + "\n \n   ---------------------   ");
+                            String msg = projectManager.getMessage("perms.user.info", playerAPI.getLanguage()).replaceAll("%target%", target.getName());
+                        }
+                    } else {
+                        OfflinePlayerData offlinePlayerData = new OfflinePlayerData((ProxiedPlayer) commandSender, projectManager.getMessage("perms.user.notfound", playerAPI.getLanguage()).replaceAll("%target%", strings[1]));
+                        OfflinePlayer offlinePlayer = offlinePlayerData.getOfflinePlayer(strings[1]);
+                        AstropermsPlayerAPI targetPerm = new AstropermsPlayerAPI(new Player(offlinePlayer.getUUID()));
+                        PlayerAPI tapi = new PlayerAPI(new Player(offlinePlayer.getUUID()));
+                    }
             }
         }
 
@@ -75,21 +117,19 @@ Subcommands:
     aperms help
 
 
-    aperms user ... info
-    aperms user ... permission info
-    aperms user ... group info
-    aperms user ... permission add ...
-    aperms user ... permission remove ...
-    aperms user ... group set ...
+    aperms user ... info  3 *
+    aperms user ... permission add ... 4
+    aperms user ... permission remove ... 4
+    aperms user ... group set ... 4
 
 
-    aperms group ... delete
-    aperms group ... create
-    aperms group ... info
-    aperms group ... listmembers
-    aperms group ... permission info
-    aperms group ... permission add ...
-    aperms group ... permission remove ...
+    aperms group ... delete 3
+    aperms group ... create 3
+    aperms group ... info 3 *
+    aperms group ... listmembers 3
+    aperms group ... permission info 3
+    aperms group ... permission add ... 4
+    aperms group ... permission remove ... 4
 
 --------------------------------------------
 
