@@ -3,11 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GameAPI/GameAPI.iml" filepath="$PROJECT_DIR$/GameAPI/GameAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Astroperms/astroperms-bungeecord/astroperms-bungeecord.iml" filepath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/astroperms-bungeecord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Astroperms/astroperms-common/astroperms-common.iml" filepath="$PROJECT_DIR$/Astroperms/astroperms-common/astroperms-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Astroperms/astroperms-paper/astroperms-paper.iml" filepath="$PROJECT_DIR$/Astroperms/astroperms-paper/astroperms-paper.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" filepath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-common/core-common.iml" filepath="$PROJECT_DIR$/core-common/core-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-spigot/core-spigot.iml" filepath="$PROJECT_DIR$/core-spigot/core-spigot.iml" />
       <module fileurl="file://$PROJECT_DIR$/libary/libary.iml" filepath="$PROJECT_DIR$/libary/libary.iml" />
       <module fileurl="file://$PROJECT_DIR$/menastro-core.iml" filepath="$PROJECT_DIR$/menastro-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Astroperms/paused.iml" filepath="$PROJECT_DIR$/Astroperms/paused.iml" />
     </modules>
   </component>
 </project>

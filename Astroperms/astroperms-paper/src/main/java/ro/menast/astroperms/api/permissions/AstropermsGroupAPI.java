@@ -1,4 +1,4 @@
-package ro.menast.libary.spigot.utils.permissions;
+package ro.menast.astroperms.api.permissions;
 
 import java.util.List;
 import java.util.UUID;

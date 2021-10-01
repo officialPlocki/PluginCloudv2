@@ -1,4 +1,4 @@
-package ro.menast.libary.bungee.utils.permissions;
+package ro.menast.astroperms.api.permissions;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,12 +7,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-import ro.menast.libary.bungee.LibaryBungee;
-import ro.menast.libary.bungee.utils.mysql.MySQLService;
-import ro.menast.libary.bungee.utils.player.Player;
+import ro.menast.libary.spigot.utils.player.Player;
+import ro.menast.libary.spigot.utils.mysql.MySQLService;
+import ro.menast.libary.spigot.LibarySpigot;
 
 public class AstropermsMySQL {
-  private static final MySQLService mysql = LibaryBungee.getMySQL();
+  private static final MySQLService mysql = LibarySpigot.getMySQL();
   
   private static final Connection con = mysql.getConnection();
   
@@ -30,7 +30,7 @@ public class AstropermsMySQL {
     } 
   }
   
-  public static void setupProxiedPlayer(Player player) {
+  public static void setupPlayer(Player player) {
     try {
       PreparedStatement ps = con.prepareStatement("INSERT INTO permUser(uuid,groupss) VALUES ('" + player.getUniqueId().toString() + "','default');");
       mysql.executeUpdate(ps);
@@ -52,7 +52,7 @@ public class AstropermsMySQL {
     return ids;
   }
   
-  public void setProxiedPlayerGroup(Player player, Group group) {
+  public void setPlayerGroup(Player player, Group group) {
     try {
       PreparedStatement ps = con.prepareStatement("UPDATE permUser SET groupss = '" + group.getGroupName() + "' WHERE uuid = '" + player.getUniqueId().toString() + "'");
       mysql.executeUpdate(ps);
@@ -79,14 +79,14 @@ public class AstropermsMySQL {
     } 
   }
   
-  public String getProxiedPlayerGroup(Player player) {
+  public String getPlayerGroup(Player player) {
     try {
       PreparedStatement ps = con.prepareStatement("SELECT groupss FROM permUser WHERE uuid = '" + player.getUniqueId().toString() + "'");
       ResultSet rs = mysql.getResult(ps);
       if (rs.next())
         return rs.getString("group"); 
-      setupProxiedPlayer(player);
-      return getProxiedPlayerGroup(player);
+      setupPlayer(player);
+      return getPlayerGroup(player);
     } catch (SQLException e) {
       e.printStackTrace();
       return "default";
@@ -100,10 +100,10 @@ public class AstropermsMySQL {
       if (rs.next()) {
         String answer = rs.getString("permission");
         if (answer.startsWith("false:"))
-          return hasGroupPermission(new PermissionableGroupBuilder(getProxiedPlayerGroup(player)), permission); 
+          return hasGroupPermission(new PermissionableGroupBuilder(getPlayerGroup(player)), permission); 
         return true;
       } 
-      return hasGroupPermission(new PermissionableGroupBuilder(getProxiedPlayerGroup(player)), permission);
+      return hasGroupPermission(new PermissionableGroupBuilder(getPlayerGroup(player)), permission);
     } catch (SQLException e) {
       e.printStackTrace();
       return false;
@@ -127,7 +127,7 @@ public class AstropermsMySQL {
     } 
   }
   
-  public void addProxiedPlayerPermission(Player player, String permission) {
+  public void addPlayerPermission(Player player, String permission) {
     try {
       PreparedStatement ps = con.prepareStatement("INSERT INTO userPermissions(uuid, permission) VALUES ('" + player.getUniqueId().toString() + "', '" + permission + "')");
       mysql.executeUpdate(ps);
@@ -145,7 +145,7 @@ public class AstropermsMySQL {
     } 
   }
   
-  public void removeProxiedPlayerPermission(Player player, String permission) {
+  public void removePlayerPermission(Player player, String permission) {
     try {
       PreparedStatement ps = con.prepareStatement("DELETE FROM userPermissions WHERE permission = '" + permission + "' AND uuid = '" + player.getUniqueId().toString() + "')");
       mysql.executeUpdate(ps);

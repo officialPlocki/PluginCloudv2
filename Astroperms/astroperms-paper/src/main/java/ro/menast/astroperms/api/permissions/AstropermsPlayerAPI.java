@@ -1,4 +1,4 @@
-package ro.menast.libary.spigot.utils.permissions;
+package ro.menast.astroperms.api.permissions;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;

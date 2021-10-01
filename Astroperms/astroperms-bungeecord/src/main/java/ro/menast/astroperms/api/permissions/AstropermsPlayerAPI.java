@@ -1,4 +1,4 @@
-package ro.menast.libary.bungee.utils.permissions;
+package ro.menast.astroperms.api.permissions;
 
 import ro.menast.libary.bungee.utils.player.Player;
 

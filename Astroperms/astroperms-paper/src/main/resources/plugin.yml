@@ -1,0 +1,5 @@
+name: Astroperms
+version: '${project.version}'
+main: ro.menast.astroperms.AstropermsPaper
+authors: [ Astroperms ]
+description: Astroperms

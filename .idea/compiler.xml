@@ -6,20 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="core-common" />
         <module name="libary" />
         <module name="core-spigot" />
-        <module name="core-bungeecord" />
         <module name="GameAPI" />
+        <module name="astroperms-paper" />
+        <module name="astroperms-common" />
+        <module name="core-common" />
+        <module name="astroperms-bungeecord" />
+        <module name="core-bungeecord" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="core-bungeecord" target="1.8" />
+      <module name="astroperms-bungeecord" target="1.8" />
+      <module name="astroperms-common" target="1.8" />
+      <module name="astroperms-paper" target="1.8" />
+      <module name="core-bungeecord" target="1.5" />
       <module name="core-common" target="1.5" />
       <module name="core-spigot" target="1.5" />
       <module name="GameAPI" target="1.8" />
       <module name="libary" target="1.8" />
       <module name="menastro-core" target="1.5" />
+      <module name="paused" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,7 +1,7 @@
 package ro.menast.libary.spigot.utils.sync;
 
 import org.bukkit.entity.Player;
-import ro.menast.libary.bungee.utils.mysql.MySQLService;
+import ro.menast.libary.spigot.utils.mysql.MySQLService;
 import ro.menast.libary.spigot.LibarySpigot;
 import ro.menast.libary.spigot.utils.sync.builder.OfflinePlayer;
 import ro.menast.libary.spigot.utils.sync.builder.OfflinePlayerBuilder;

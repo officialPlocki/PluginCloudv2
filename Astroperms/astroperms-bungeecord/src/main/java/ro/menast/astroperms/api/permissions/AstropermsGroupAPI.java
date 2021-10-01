@@ -1,4 +1,4 @@
-package ro.menast.libary.bungee.utils.permissions;
+package ro.menast.astroperms.api.permissions;
 
 import java.util.List;
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package ro.menast.libary.spigot.utils.permissions;
+package ro.menast.astroperms.api.permissions;
 
 public class PermissionableGroupBuilder implements Group {
   private final String name;

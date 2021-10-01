@@ -11,9 +11,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="">
+    <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="init 3">
+      <change afterPath="$PROJECT_DIR$/Astroperms/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/resources/bungee.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Astroperms/astroperms-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Astroperms/astroperms-paper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Astroperms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/MenBungeeCordCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/MenBungeeCordCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/AstropermsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/ro/menast/astroperms/commands/AstropermsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/MenSpigotCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/src/main/java/ro/menast/core/MenSpigotCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/LibaryBungee.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/LibaryBungee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/permissions/AstropermsGroupAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/ro/menast/astroperms/api/permissions/AstropermsGroupAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/permissions/AstropermsMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/ro/menast/astroperms/api/permissions/AstropermsMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/permissions/AstropermsPlayerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/ro/menast/astroperms/api/permissions/AstropermsPlayerAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/permissions/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/ro/menast/astroperms/api/permissions/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/permissions/PermissionableGroupBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/ro/menast/astroperms/api/permissions/PermissionableGroupBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/player/PlayerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/player/PlayerAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/LibarySpigot.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/LibarySpigot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/events/LoginListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/AstropermsGroupAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/java/ro/menast/astroperms/api/permissions/AstropermsGroupAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/AstropermsMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/java/ro/menast/astroperms/api/permissions/AstropermsMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/AstropermsPlayerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/java/ro/menast/astroperms/api/permissions/AstropermsPlayerAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/java/ro/menast/astroperms/api/permissions/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/permissions/PermissionableGroupBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/java/ro/menast/astroperms/api/permissions/PermissionableGroupBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/player/PlayerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/player/PlayerAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OfflinePlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OfflinePlayerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OnlinePlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OnlinePlayerData.java" afterDir="false" />
     </list>
     <list id="4d3256c0-41e9-40ce-b003-76d29b6b099d" name="Changes by EinfachKonrad-A" comment="Changes by EinfachKonrad-A" />
     <list id="89913761-a681-4677-8259-42cf83f9d525" name="Changes by Marc Birnthaler" comment="Changes by Marc Birnthaler nd EinfachKonrad-A" />
@@ -112,6 +144,64 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Astroperms build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="Bundled (Maven 3)" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Astroperms" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="GameAPI build" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>

@@ -6,7 +6,6 @@ import org.bukkit.Bukkit;
 import ro.menast.libary.bungee.utils.filebuilder.FileBuilder;
 import ro.menast.libary.bungee.utils.money.BitcoinAPI;
 import ro.menast.libary.bungee.utils.mysql.MySQLService;
-import ro.menast.libary.bungee.utils.permissions.AstropermsMySQL;
 import ro.menast.libary.bungee.utils.project.ProjectManager;
 import ro.menast.libary.bungee.utils.sync.OnlinePlayerData;
 
@@ -36,7 +35,6 @@ public class LibaryBungee extends Plugin {
     MySQLService.setMaxConnections();
     mySQLService = new MySQLService();
     BitcoinAPI.setup();
-    AstropermsMySQL.setup();
     OnlinePlayerData.OnlinePlayerDataMySQL.init();
   }
   

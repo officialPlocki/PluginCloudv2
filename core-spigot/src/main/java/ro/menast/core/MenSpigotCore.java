@@ -1,10 +1,11 @@
 package ro.menast.core;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import ro.menast.libary.spigot.LibarySpigot;
 import ro.menast.libary.spigot.utils.mysql.MySQLService;
 import ro.menast.libary.spigot.utils.project.ProjectManager;
 
-public final class                    MenSpigotCore extends JavaPlugin {
+public final class MenSpigotCore extends JavaPlugin {
 
     private static ProjectManager projectManager;
 
@@ -12,9 +13,8 @@ public final class                    MenSpigotCore extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        mySQLService = new MySQLService();
+        mySQLService = LibarySpigot.getMySQL();
         projectManager = new ProjectManager("SpigotCore");
-
     }
 
     @Override

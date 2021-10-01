@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import org.bukkit.entity.Player;
-import ro.menast.libary.bungee.utils.mysql.MySQLService;
+import ro.menast.libary.spigot.utils.mysql.MySQLService;
 import ro.menast.libary.spigot.LibarySpigot;
 import ro.menast.libary.spigot.utils.player.PlayerAPI;
 import ro.menast.libary.spigot.utils.sync.builder.OnlinePlayer;
