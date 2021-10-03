@@ -7,4 +7,28 @@ out/artifacts/Libary/Libary.jar:           Import into 'core-spigot' and 'core-b
 
 And yes, it is IMPORTANT that these are not from maven.
 Maven Bungeecord hasn't all classes, like 'Bungeecord.java' and not all packages like 'io.netty'.
-Maven Spigot has only 'org.bukkit', but 'net.minecraft' and 'com.mojang' is important to us.
+Maven Spigot has only 'org.bukkit', but 'net.minecraft' and 'com.mojang' is important for us.
+
+
+
+language keys:
+
+
+ban.help
+ban.searching
+ban.playernotfound
+ban.found
+ban.ban
+ban.noreplayid
+ban.younotbanned
+
+general.nopermission
+
+
+
+permissions:
+
+bans.ban
+bans.info.all
+bans.history
+bans.unban

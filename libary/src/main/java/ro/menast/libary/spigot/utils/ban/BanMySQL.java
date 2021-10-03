@@ -83,6 +83,31 @@ public class BanMySQL {
         return false;
     }
 
+    public static String getBanIDByUUID(String uuid) {
+        if(isPermBan(uuid)) {
+            try {
+                PreparedStatement ps = con.prepareStatement("SELECT banID from permbans WHERE bannedUUID = '"+uuid+"'");
+                ResultSet rs = mysql.getResult(ps);
+                if(rs.next()) {
+                    return rs.getString("banID");
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        } else {
+            try {
+                PreparedStatement ps = con.prepareStatement("SELECT banID from tempbans WHERE bannedUUID = '"+uuid+"'");
+                ResultSet rs = mysql.getResult(ps);
+                if(rs.next()) {
+                    return rs.getString("banID");
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        return null;
+    }
+
     public static void unBan(String banID) {
         IBan ban = getBanInfo(banID);
         if(ban.isPerma()) {
@@ -106,7 +131,7 @@ public class BanMySQL {
     }
 
     public static IBan getBanInfo(String banID) {
-        return new IBanBuilder(getReplayID(banID),isUnbannable(banID),getBanner(banID),new Player(getUniqueIdFromBanned(banID)),getBanDate(banID),getUnBanDate(banID),isPermBan(getUniqueIdFromBanned(banID)),banID);
+        return new BanBuilder(getReplayID(banID),isUnbannable(banID),getBanner(banID),new Player(getUniqueIdFromBanned(banID)),getBanDate(banID),getUnBanDate(banID),isPermBan(getUniqueIdFromBanned(banID)),banID);
     }
 
     private static Date getUnBanDate(String banID) {

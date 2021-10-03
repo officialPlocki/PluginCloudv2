@@ -1,10 +1,10 @@
-package ro.menast.libary.spigot.utils.ban;
+package ro.menast.libary.bungee.utils.ban;
 
-import ro.menast.libary.spigot.utils.player.Player;
+import ro.menast.libary.bungee.utils.player.Player;
 
 import java.util.Date;
 
-public class IBanBuilder implements IBan {
+public class BanBuilder implements IBan {
 
     private final String replayID;
     private final boolean canUnbanned;
@@ -15,7 +15,7 @@ public class IBanBuilder implements IBan {
     private final boolean perma;
     private final String id;
 
-    public IBanBuilder(String replayID, boolean canUnbanned, Player from, Player to, Date bannedAt, Date unbanAt, boolean isPermanent, String banID) {
+    public BanBuilder(String replayID, boolean canUnbanned, Player from, Player to, Date bannedAt, Date unbanAt, boolean isPermanent, String banID) {
         this.replayID = replayID;
         this.canUnbanned = canUnbanned;
         this.from = from;

@@ -14,17 +14,20 @@ public class LanguageAPI {
   }
   
   public String getMessageString(String key, langs lang) {
+    String prefix = "§b§lMenastro§8┃ §7";
     if(fileBuilder.getYaml().isSet(lang.name()+"."+key)) {
-      return this.fileBuilder.getYaml().getString(lang.name() + "." + key);
+      return prefix+this.fileBuilder.getYaml().getString(lang.name() + "." + key);
     } else {
       fileBuilder.getYaml().set(lang.name() + "." + key, "not set");
       fileBuilder.save();
-      return "The message \""+lang.name() + "." + key+"\" was not set.";
+      return prefix+"for message '" + lang.name() + "." + key + "' is no message set.";
     }
   }
   
   public void setMessageString(String key, langs lang, String message) {
-    this.fileBuilder.getYaml().set(lang.name() + "." + key, message);
-    this.fileBuilder.save();
+    if(!fileBuilder.getYaml().isSet(lang.name() + "." + key)) {
+      this.fileBuilder.getYaml().set(lang.name() + "." + key, message);
+      this.fileBuilder.save();
+    }
   }
 }

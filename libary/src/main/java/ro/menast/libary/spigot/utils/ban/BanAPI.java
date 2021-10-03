@@ -10,6 +10,10 @@ public class BanAPI {
         BanMySQL.createBan(replayID, toBan, bannedFrom, permanent, reason);
     }
 
+    public String getBanID(String uuid) {
+        return BanMySQL.getBanIDByUUID(uuid);
+    }
+
     public IBan getBanInfo(String banID) {
         return BanMySQL.getBanInfo(banID);
     }
@@ -18,4 +22,7 @@ public class BanAPI {
         return BanMySQL.isBanned(check.getUniqueId());
     }
 
+    public void unban(String banID) {
+        BanMySQL.unBan(banID);
+    }
 }
