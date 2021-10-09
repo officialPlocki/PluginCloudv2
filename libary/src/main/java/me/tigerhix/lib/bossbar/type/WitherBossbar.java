@@ -34,7 +34,7 @@ public abstract class WitherBossbar implements Bossbar {
   }
   
   public WitherBossbar setPercentage(float percentage) {
-    percentage = ((Float)Maths.clamp(Float.valueOf(percentage), Float.valueOf(0.0F), Float.valueOf(1.0F))).floatValue();
+    percentage = Maths.clamp(Float.valueOf(percentage), Float.valueOf(0.0F), Float.valueOf(1.0F)).floatValue();
     this.health = percentage * 300.0F;
     return this;
   }

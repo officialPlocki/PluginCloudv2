@@ -1,27 +1,11 @@
 package me.tigerhix.lib.bossbar.type;
 
-import net.minecraft.server.v1_8_R3.DamageSource;
-import net.minecraft.server.v1_8_R3.Entity;
-import net.minecraft.server.v1_8_R3.EntityHuman;
-import net.minecraft.server.v1_8_R3.EntityInsentient;
-import net.minecraft.server.v1_8_R3.EntityLiving;
-import net.minecraft.server.v1_8_R3.EntityMonster;
-import net.minecraft.server.v1_8_R3.EnumMonsterType;
-import net.minecraft.server.v1_8_R3.GenericAttributes;
-import net.minecraft.server.v1_8_R3.IRangedEntity;
-import net.minecraft.server.v1_8_R3.MathHelper;
-import net.minecraft.server.v1_8_R3.MobEffect;
-import net.minecraft.server.v1_8_R3.NBTTagCompound;
-import net.minecraft.server.v1_8_R3.Navigation;
-import net.minecraft.server.v1_8_R3.PathfinderGoal;
-import net.minecraft.server.v1_8_R3.PathfinderGoalFloat;
-import net.minecraft.server.v1_8_R3.PathfinderGoalLookAtPlayer;
-import net.minecraft.server.v1_8_R3.World;
+import net.minecraft.server.v1_8_R3.*;
 
 public final class BossbarWither extends EntityMonster implements IRangedEntity {
-  private float[] a = new float[2];
+  private final float[] a = new float[2];
   
-  private float[] b = new float[2];
+  private final float[] b = new float[2];
   
   public BossbarWither(World world) {
     super(world);
@@ -29,8 +13,8 @@ public final class BossbarWither extends EntityMonster implements IRangedEntity 
     setSize(0.9F, 3.5F);
     this.fireProof = true;
     ((Navigation)getNavigation()).d(true);
-    this.goalSelector.a(0, (PathfinderGoal)new PathfinderGoalFloat((EntityInsentient)this));
-    this.goalSelector.a(6, (PathfinderGoal)new PathfinderGoalLookAtPlayer((EntityInsentient)this, EntityHuman.class, 80.0F));
+    this.goalSelector.a(0, new PathfinderGoalFloat(this));
+    this.goalSelector.a(6, new PathfinderGoalLookAtPlayer(this, EntityHuman.class, 80.0F));
     this.b_ = 50;
   }
   

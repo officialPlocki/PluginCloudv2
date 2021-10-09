@@ -1,6 +1,12 @@
 package ro.menast.libary.spigot.utils.sync;
 
-import java.net.InetSocketAddress;
+import org.bukkit.entity.Player;
+import ro.menast.libary.spigot.LibarySpigot;
+import ro.menast.libary.spigot.utils.mysql.MySQLService;
+import ro.menast.libary.spigot.utils.player.PlayerAPI;
+import ro.menast.libary.spigot.utils.sync.builder.OnlinePlayer;
+import ro.menast.libary.spigot.utils.sync.builder.OnlinePlayerBuilder;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -8,12 +14,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import org.bukkit.entity.Player;
-import ro.menast.libary.spigot.utils.mysql.MySQLService;
-import ro.menast.libary.spigot.LibarySpigot;
-import ro.menast.libary.spigot.utils.player.PlayerAPI;
-import ro.menast.libary.spigot.utils.sync.builder.OnlinePlayer;
-import ro.menast.libary.spigot.utils.sync.builder.OnlinePlayerBuilder;
 
 public class OnlinePlayerData {
 
@@ -127,7 +127,7 @@ public class OnlinePlayerData {
         PreparedStatement ps = con.prepareStatement("INSERT INTO player(uuid,name,ip) VALUES (?,?,?)");
         ps.setString(1, p.getUniqueId().toString());
         ps.setString(2, p.getName());
-        ps.setString(3, ((InetSocketAddress)Objects.<InetSocketAddress>requireNonNull(p.getAddress())).getHostName());
+        ps.setString(3, Objects.requireNonNull(p.getAddress()).getHostName());
         mysql.executeUpdate(ps);
       } catch (SQLException e) {
         executor.sendMessage(errorMessage);
@@ -151,7 +151,7 @@ public class OnlinePlayerData {
 
     public static String getNameByUniqueID(Player p) {
       try {
-        PreparedStatement ps = con.prepareStatement("SELECT name FROM player WHERE uuid = '"+p.getUniqueId().toString()+"'");
+        PreparedStatement ps = con.prepareStatement("SELECT name FROM player WHERE uuid = '"+ p.getUniqueId() +"'");
         ResultSet rs = mysql.getResult(ps);
         if(rs.next()) {
           return rs.getString("name");
@@ -196,7 +196,7 @@ public class OnlinePlayerData {
 
     public static String getIpByUniqueID(Player p) {
       try {
-        PreparedStatement ps = con.prepareStatement("SELECT ip FROM player WHERE uuid = '"+p.getUniqueId().toString()+"'");
+        PreparedStatement ps = con.prepareStatement("SELECT ip FROM player WHERE uuid = '"+ p.getUniqueId() +"'");
         ResultSet rs = mysql.getResult(ps);
         if(rs.next()) {
           return rs.getString("ip");

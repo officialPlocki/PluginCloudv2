@@ -39,7 +39,7 @@ public final class Reflections {
     throw new IllegalArgumentException("Cannot find field with type " + fieldType);
   }
   
-  public static interface FieldAccessor<T> {
+  public interface FieldAccessor<T> {
     T get(Object param1Object);
     
     void set(Object param1Object1, Object param1Object2);

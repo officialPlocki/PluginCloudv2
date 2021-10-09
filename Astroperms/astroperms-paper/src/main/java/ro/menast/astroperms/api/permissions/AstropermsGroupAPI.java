@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.UUID;
 
 public class AstropermsGroupAPI {
-  private Group group;
+  private final Group group;
   
   public AstropermsGroupAPI(Group group) {
     this.group = group;

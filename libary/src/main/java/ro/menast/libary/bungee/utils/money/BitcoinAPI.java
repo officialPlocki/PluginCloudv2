@@ -1,9 +1,10 @@
 package ro.menast.libary.bungee.utils.money;
 
-import java.text.DecimalFormat;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.config.Configuration;
 import ro.menast.libary.bungee.utils.filebuilder.FileBuilder;
+
+import java.text.DecimalFormat;
 
 public class BitcoinAPI {
   private static FileBuilder fileBuilder;
@@ -53,8 +54,6 @@ public class BitcoinAPI {
   }
   
   public static boolean hasBitcoins(ProxiedPlayer p, double amount) {
-    if (getBitcoins(p) == amount || getBitcoins(p) >= amount)
-      return true; 
-    return false;
+      return getBitcoins(p) == amount || getBitcoins(p) >= amount;
   }
 }

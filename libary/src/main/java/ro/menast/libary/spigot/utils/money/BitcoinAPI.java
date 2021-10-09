@@ -1,10 +1,11 @@
 package ro.menast.libary.spigot.utils.money;
 
-import java.text.DecimalFormat;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 import ro.menast.libary.spigot.utils.filebuilder.FileBuilder;
+
+import java.text.DecimalFormat;
 
 public class BitcoinAPI {
   private static FileBuilder fileBuilder;
@@ -54,9 +55,7 @@ public class BitcoinAPI {
   }
   
   public static boolean hasBitcoins(Player p, double amount) {
-    if (getBitcoins(p) == amount || getBitcoins(p) >= amount)
-      return true; 
-    return false;
+      return getBitcoins(p) == amount || getBitcoins(p) >= amount;
   }
   
   public static double getBitcoins(OfflinePlayer p) {
@@ -97,8 +96,6 @@ public class BitcoinAPI {
   }
   
   public static boolean hasBitcoins(OfflinePlayer p, double amount) {
-    if (getBitcoins(p) == amount || getBitcoins(p) >= amount)
-      return true; 
-    return false;
+      return getBitcoins(p) == amount || getBitcoins(p) >= amount;
   }
 }

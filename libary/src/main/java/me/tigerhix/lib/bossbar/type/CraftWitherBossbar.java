@@ -1,14 +1,6 @@
 package me.tigerhix.lib.bossbar.type;
 
-import net.minecraft.server.v1_8_R3.DataWatcher;
-import net.minecraft.server.v1_8_R3.Entity;
-import net.minecraft.server.v1_8_R3.EntityLiving;
-import net.minecraft.server.v1_8_R3.Packet;
-import net.minecraft.server.v1_8_R3.PacketPlayOutEntityDestroy;
-import net.minecraft.server.v1_8_R3.PacketPlayOutEntityMetadata;
-import net.minecraft.server.v1_8_R3.PacketPlayOutEntityTeleport;
-import net.minecraft.server.v1_8_R3.PacketPlayOutSpawnEntityLiving;
-import net.minecraft.server.v1_8_R3.World;
+import net.minecraft.server.v1_8_R3.*;
 import org.bukkit.Location;
 import org.bukkit.craftbukkit.v1_8_R3.CraftWorld;
 
@@ -20,30 +12,30 @@ public class CraftWitherBossbar extends WitherBossbar {
   }
   
   public Packet getSpawnPacket() {
-    this.wither = new BossbarWither((World)((CraftWorld)this.spawnLocation.getWorld()).getHandle());
+    this.wither = new BossbarWither(((CraftWorld)this.spawnLocation.getWorld()).getHandle());
     this.wither.setLocation(this.spawnLocation.getX(), this.spawnLocation.getY(), this.spawnLocation.getZ(), this.spawnLocation.getYaw(), this.spawnLocation.getPitch());
     this.wither.setInvisible(false);
     this.wither.setCustomName(this.name);
     this.wither.setHealth(this.health);
-    return (Packet)new PacketPlayOutSpawnEntityLiving((EntityLiving)this.wither);
+    return new PacketPlayOutSpawnEntityLiving(this.wither);
   }
   
   public Packet getDestroyPacket() {
     if (this.wither == null)
       return null; 
-    return (Packet)new PacketPlayOutEntityDestroy(new int[] { this.wither.getId() });
+    return new PacketPlayOutEntityDestroy(this.wither.getId());
   }
   
   public Packet getMetaPacket(DataWatcher watcher) {
-    return (Packet)new PacketPlayOutEntityMetadata(this.wither.getId(), watcher, true);
+    return new PacketPlayOutEntityMetadata(this.wither.getId(), watcher, true);
   }
   
   public Packet getTeleportPacket(Location location) {
-    return (Packet)new PacketPlayOutEntityTeleport(this.wither.getId(), location.getBlockX() * 32, location.getBlockY() * 32, location.getBlockZ() * 32, (byte)((int)location.getYaw() * 256 / 360), (byte)((int)location.getPitch() * 256 / 360), false);
+    return new PacketPlayOutEntityTeleport(this.wither.getId(), location.getBlockX() * 32, location.getBlockY() * 32, location.getBlockZ() * 32, (byte)((int)location.getYaw() * 256 / 360), (byte)((int)location.getPitch() * 256 / 360), false);
   }
   
   public DataWatcher getWatcher() {
-    DataWatcher watcher = new DataWatcher((Entity)this.wither);
+    DataWatcher watcher = new DataWatcher(this.wither);
     watcher.a(0, Byte.valueOf((byte)32));
     watcher.a(2, this.name);
     watcher.a(3, Byte.valueOf((byte)1));

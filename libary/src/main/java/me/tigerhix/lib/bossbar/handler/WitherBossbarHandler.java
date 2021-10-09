@@ -1,15 +1,10 @@
 package me.tigerhix.lib.bossbar.handler;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
 import me.tigerhix.lib.bossbar.BossbarLib;
 import me.tigerhix.lib.bossbar.common.NMS;
-import me.tigerhix.lib.bossbar.type.Bossbar;
 import me.tigerhix.lib.bossbar.type.BossbarWither;
 import me.tigerhix.lib.bossbar.type.CraftWitherBossbar;
 import me.tigerhix.lib.bossbar.type.WitherBossbar;
-import net.minecraft.server.v1_8_R3.Packet;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -21,6 +16,10 @@ import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.event.player.PlayerRespawnEvent;
 import org.bukkit.event.player.PlayerTeleportEvent;
 import org.bukkit.plugin.Plugin;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
 
 public final class WitherBossbarHandler implements Listener, BossbarHandler {
   private final Plugin plugin;
@@ -85,7 +84,7 @@ public final class WitherBossbarHandler implements Listener, BossbarHandler {
     this.spawnedWithers.remove(player.getUniqueId());
     if (bossbar == null || !bossbar.isSpawned() || bossbar.getDestroyPacket() == null)
       return; 
-    NMS.sendPacket(player, new Packet[] { bossbar.getDestroyPacket() });
+    NMS.sendPacket(player, bossbar.getDestroyPacket());
   }
   
   public WitherBossbar getBossbar(Player player) {
@@ -108,9 +107,9 @@ public final class WitherBossbarHandler implements Listener, BossbarHandler {
     if (!bossbar.isSpawned()) {
       bossbar.setSpawned(true);
       bossbar.setSpawnLocation(player.getLocation().add(player.getEyeLocation().getDirection().multiply(20)));
-      NMS.sendPacket(player, new Packet[] { bossbar.getSpawnPacket() });
+      NMS.sendPacket(player, bossbar.getSpawnPacket());
     } 
-    NMS.sendPacket(player, new Packet[] { bossbar.getMetaPacket(bossbar.getWatcher()) });
-    NMS.sendPacket(player, new Packet[] { bossbar.getTeleportPacket(player.getLocation().add(player.getEyeLocation().getDirection().multiply(20))) });
+    NMS.sendPacket(player, bossbar.getMetaPacket(bossbar.getWatcher()));
+    NMS.sendPacket(player, bossbar.getTeleportPacket(player.getLocation().add(player.getEyeLocation().getDirection().multiply(20))));
   }
 }

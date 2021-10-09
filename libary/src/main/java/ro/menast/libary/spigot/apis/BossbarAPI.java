@@ -7,7 +7,6 @@ import org.bukkit.boss.BarFlag;
 import org.bukkit.boss.BarStyle;
 import org.bukkit.boss.BossBar;
 import org.bukkit.entity.Player;
-import org.bukkit.plugin.Plugin;
 import ro.menast.libary.spigot.LibarySpigot;
 import ro.menast.libary.spigot.utils.Version;
 import ro.menast.libary.threaded.AsyncThreadScheduler;
@@ -22,7 +21,7 @@ public class BossbarAPI {
         
         .runAsyncTaskLater(time);
     } else {
-      BossBar bar = Bukkit.createBossBar(text, BarColor.BLUE, BarStyle.SEGMENTED_6, new BarFlag[0]);
+      BossBar bar = Bukkit.createBossBar(text, BarColor.BLUE, BarStyle.SEGMENTED_6);
       bar.setVisible(true);
       bar.addPlayer(p);
       (new AsyncThreadScheduler(() -> bar.removePlayer(p))).runAsyncTaskLater(time);
@@ -41,7 +40,7 @@ public class BossbarAPI {
       BossBar bar = Bukkit.createBossBar(text, color, style, flags);
       bar.setVisible(true);
       bar.addPlayer(p);
-      Bukkit.getScheduler().runTaskLater((Plugin)LibarySpigot.getInstance(), () -> bar.removePlayer(p), time * 20L);
+      Bukkit.getScheduler().runTaskLater(LibarySpigot.getInstance(), () -> bar.removePlayer(p), time * 20L);
     } 
   }
 }

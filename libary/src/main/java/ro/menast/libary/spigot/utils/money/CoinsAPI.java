@@ -1,16 +1,17 @@
 package ro.menast.libary.spigot.utils.money;
 
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
 import ro.menast.libary.spigot.LibarySpigot;
 import ro.menast.libary.spigot.utils.mysql.MySQLService;
 
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 public class CoinsAPI {
 
-  private static MySQLService service = LibarySpigot.getMySQL();
+  private static final MySQLService service = LibarySpigot.getMySQL();
 
   public static void addCoins(OfflinePlayer p, int amount) {
     try {

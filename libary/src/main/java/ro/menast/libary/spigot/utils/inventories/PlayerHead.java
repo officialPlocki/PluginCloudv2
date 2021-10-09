@@ -2,11 +2,11 @@ package ro.menast.libary.spigot.utils.inventories;
 
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.SkullMeta;
+
 import java.lang.reflect.Field;
 import java.util.UUID;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
-import org.bukkit.inventory.meta.SkullMeta;
 
 public class PlayerHead {
   public static ItemStack getItemStackWithTexture(ItemStack head, String long_key) {
@@ -21,7 +21,7 @@ public class PlayerHead {
     } catch (IllegalArgumentException|IllegalAccessException|NoSuchFieldException|SecurityException e) {
       e.printStackTrace();
     } 
-    head.setItemMeta((ItemMeta)meta);
+    head.setItemMeta(meta);
     return head;
   }
 }

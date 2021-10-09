@@ -1,5 +1,9 @@
 package ro.menast.astroperms.api.permissions;
 
+import ro.menast.libary.bungee.LibaryBungee;
+import ro.menast.libary.bungee.utils.mysql.MySQLService;
+import ro.menast.libary.bungee.utils.player.Player;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -7,9 +11,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-import ro.menast.libary.bungee.LibaryBungee;
-import ro.menast.libary.bungee.utils.mysql.MySQLService;
-import ro.menast.libary.bungee.utils.player.Player;
 
 public class AstropermsMySQL {
   private static final MySQLService mysql = LibaryBungee.getMySQL();
@@ -32,7 +33,7 @@ public class AstropermsMySQL {
   
   public static void setupProxiedPlayer(Player player) {
     try {
-      PreparedStatement ps = con.prepareStatement("INSERT INTO permUser(uuid,groupss) VALUES ('" + player.getUniqueId().toString() + "','default');");
+      PreparedStatement ps = con.prepareStatement("INSERT INTO permUser(uuid,groupss) VALUES ('" + player.getUniqueId() + "','default');");
       mysql.executeUpdate(ps);
     } catch (SQLException e) {
       e.printStackTrace();
@@ -54,7 +55,7 @@ public class AstropermsMySQL {
   
   public void setProxiedPlayerGroup(Player player, Group group) {
     try {
-      PreparedStatement ps = con.prepareStatement("UPDATE permUser SET groupss = '" + group.getGroupName() + "' WHERE uuid = '" + player.getUniqueId().toString() + "'");
+      PreparedStatement ps = con.prepareStatement("UPDATE permUser SET groupss = '" + group.getGroupName() + "' WHERE uuid = '" + player.getUniqueId() + "'");
       mysql.executeUpdate(ps);
     } catch (SQLException e) {
       e.printStackTrace();
@@ -81,7 +82,7 @@ public class AstropermsMySQL {
   
   public String getProxiedPlayerGroup(Player player) {
     try {
-      PreparedStatement ps = con.prepareStatement("SELECT groupss FROM permUser WHERE uuid = '" + player.getUniqueId().toString() + "'");
+      PreparedStatement ps = con.prepareStatement("SELECT groupss FROM permUser WHERE uuid = '" + player.getUniqueId() + "'");
       ResultSet rs = mysql.getResult(ps);
       if (rs.next())
         return rs.getString("group"); 
@@ -95,7 +96,7 @@ public class AstropermsMySQL {
   
   public boolean hasPermission(Player player, String permission) {
     try {
-      PreparedStatement ps = con.prepareStatement("SELECT permission FROM userPermissions WHERE uuid = '" + player.getUniqueId().toString() + "'");
+      PreparedStatement ps = con.prepareStatement("SELECT permission FROM userPermissions WHERE uuid = '" + player.getUniqueId() + "'");
       ResultSet rs = mysql.getResult(ps);
       if (rs.next()) {
         String answer = rs.getString("permission");
@@ -116,9 +117,7 @@ public class AstropermsMySQL {
       ResultSet rs = mysql.getResult(ps);
       if (rs.next()) {
         String answer = rs.getString("permission");
-        if (answer.startsWith("false:"))
-          return false; 
-        return true;
+          return !answer.startsWith("false:");
       } 
       return false;
     } catch (SQLException e) {
@@ -129,7 +128,7 @@ public class AstropermsMySQL {
   
   public void addProxiedPlayerPermission(Player player, String permission) {
     try {
-      PreparedStatement ps = con.prepareStatement("INSERT INTO userPermissions(uuid, permission) VALUES ('" + player.getUniqueId().toString() + "', '" + permission + "')");
+      PreparedStatement ps = con.prepareStatement("INSERT INTO userPermissions(uuid, permission) VALUES ('" + player.getUniqueId() + "', '" + permission + "')");
       mysql.executeUpdate(ps);
     } catch (SQLException e) {
       e.printStackTrace();
@@ -147,7 +146,7 @@ public class AstropermsMySQL {
   
   public void removeProxiedPlayerPermission(Player player, String permission) {
     try {
-      PreparedStatement ps = con.prepareStatement("DELETE FROM userPermissions WHERE permission = '" + permission + "' AND uuid = '" + player.getUniqueId().toString() + "')");
+      PreparedStatement ps = con.prepareStatement("DELETE FROM userPermissions WHERE permission = '" + permission + "' AND uuid = '" + player.getUniqueId() + "')");
       mysql.executeUpdate(ps);
     } catch (Exception e) {
       e.printStackTrace();

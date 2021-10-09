@@ -3,14 +3,13 @@ package ro.menast.libary.bungee.utils.sync;
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
+import ro.menast.libary.bungee.LibaryBungee;
 import ro.menast.libary.bungee.utils.mysql.MySQLService;
 import ro.menast.libary.bungee.utils.player.Player;
+import ro.menast.libary.bungee.utils.player.PlayerAPI;
 import ro.menast.libary.bungee.utils.sync.builder.OnlinePlayer;
 import ro.menast.libary.bungee.utils.sync.builder.OnlinePlayerBuilder;
-import ro.menast.libary.bungee.LibaryBungee;
-import ro.menast.libary.bungee.utils.player.PlayerAPI;
 
-import java.net.InetSocketAddress;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -131,7 +130,7 @@ public class OnlinePlayerData {
         PreparedStatement ps = con.prepareStatement("INSERT INTO player(uuid,name,ip) VALUES (?,?,?)");
         ps.setString(1, p.getUniqueId().toString());
         ps.setString(2, p.getName());
-        ps.setString(3, ((InetSocketAddress)Objects.<InetSocketAddress>requireNonNull(p.getAddress())).getHostName());
+        ps.setString(3, Objects.requireNonNull(p.getAddress()).getHostName());
         mysql.executeUpdate(ps);
       } catch (SQLException e) {
         executor.sendMessage(ChatMessageType.CHAT, TextComponent.fromLegacyText(errorMessage));

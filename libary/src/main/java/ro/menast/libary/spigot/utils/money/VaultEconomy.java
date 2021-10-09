@@ -1,12 +1,12 @@
 package ro.menast.libary.spigot.utils.money;
 
-import java.util.List;
-import java.util.Objects;
 import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.economy.EconomyResponse;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
-import org.bukkit.entity.Player;
+
+import java.util.List;
+import java.util.Objects;
 
 public class VaultEconomy implements Economy {
   public EconomyResponse bankBalance(String arg0) {
@@ -90,7 +90,7 @@ public class VaultEconomy implements Economy {
   }
   
   public double getBalance(String arg0) {
-    return BitcoinAPI.getBitcoins(Objects.<Player>requireNonNull(Bukkit.getPlayerExact(arg0)));
+    return BitcoinAPI.getBitcoins(Objects.requireNonNull(Bukkit.getPlayerExact(arg0)));
   }
   
   public double getBalance(OfflinePlayer arg0) {
@@ -98,7 +98,7 @@ public class VaultEconomy implements Economy {
   }
   
   public double getBalance(String arg0, String arg1) {
-    return BitcoinAPI.getBitcoins(Objects.<Player>requireNonNull(Bukkit.getPlayerExact(arg0)));
+    return BitcoinAPI.getBitcoins(Objects.requireNonNull(Bukkit.getPlayerExact(arg0)));
   }
   
   public double getBalance(OfflinePlayer arg0, String arg1) {
@@ -114,7 +114,7 @@ public class VaultEconomy implements Economy {
   }
   
   public boolean has(String arg0, double arg1) {
-    return (BitcoinAPI.getBitcoins(Objects.<Player>requireNonNull(Bukkit.getPlayerExact(arg0))) >= arg1);
+    return (BitcoinAPI.getBitcoins(Objects.requireNonNull(Bukkit.getPlayerExact(arg0))) >= arg1);
   }
   
   public boolean has(OfflinePlayer arg0, double arg1) {
@@ -122,7 +122,7 @@ public class VaultEconomy implements Economy {
   }
   
   public boolean has(String arg0, String arg1, double arg2) {
-    return (BitcoinAPI.getBitcoins(Objects.<Player>requireNonNull(Bukkit.getPlayerExact(arg0))) >= arg2);
+    return (BitcoinAPI.getBitcoins(Objects.requireNonNull(Bukkit.getPlayerExact(arg0))) >= arg2);
   }
   
   public boolean has(OfflinePlayer arg0, String arg1, double arg2) {
@@ -130,7 +130,7 @@ public class VaultEconomy implements Economy {
   }
   
   public boolean hasAccount(String arg0) {
-    return ((Player)Objects.<Player>requireNonNull(Bukkit.getPlayerExact(arg0))).hasPlayedBefore();
+    return Objects.requireNonNull(Bukkit.getPlayerExact(arg0)).hasPlayedBefore();
   }
   
   public boolean hasAccount(OfflinePlayer arg0) {
@@ -138,7 +138,7 @@ public class VaultEconomy implements Economy {
   }
   
   public boolean hasAccount(String arg0, String arg1) {
-    return ((Player)Objects.<Player>requireNonNull(Bukkit.getPlayerExact(arg0))).hasPlayedBefore();
+    return Objects.requireNonNull(Bukkit.getPlayerExact(arg0)).hasPlayedBefore();
   }
   
   public boolean hasAccount(OfflinePlayer arg0, String arg1) {

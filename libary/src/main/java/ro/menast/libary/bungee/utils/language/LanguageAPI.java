@@ -6,7 +6,7 @@ public class LanguageAPI {
   private final FileBuilder fileBuilder;
 
   public enum langs {
-    DE, EN;
+    DE, EN
   }
   
   public LanguageAPI(String project) {

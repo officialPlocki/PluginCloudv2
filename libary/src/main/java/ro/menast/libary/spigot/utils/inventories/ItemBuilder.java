@@ -1,13 +1,14 @@
 package ro.menast.libary.spigot.utils.inventories;
 
-import java.util.ArrayList;
-import java.util.List;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.SkullMeta;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ItemBuilder {
   private final String displayname;
@@ -57,7 +58,7 @@ public class ItemBuilder {
     itemMeta.setLore(this.lore);
     if (this.enchanted) {
       itemMeta.addEnchant(Enchantment.DURABILITY, 0, true);
-      itemMeta.addItemFlags(new ItemFlag[] { ItemFlag.HIDE_ENCHANTS });
+      itemMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
     } 
     itemstack.setItemMeta(itemMeta);
     itemstack.setAmount(this.amount);
@@ -71,7 +72,7 @@ public class ItemBuilder {
     skullMeta.setDisplayName(this.displayname);
     skullMeta.setOwner(skullowner);
     skullMeta.setLore(this.lore);
-    itemstack.setItemMeta((ItemMeta)skullMeta);
+    itemstack.setItemMeta(skullMeta);
     itemstack.setAmount(this.amount);
     return itemstack;
   }

@@ -1,11 +1,12 @@
 package ro.menast.libary.spigot.utils.inventories;
 
-import java.util.Iterator;
-import java.util.Map;
 import org.bukkit.Bukkit;
 import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
+
+import java.util.Iterator;
+import java.util.Map;
 
 public class InventoryBuilder {
   private final String title;
@@ -31,13 +32,13 @@ public class InventoryBuilder {
     if (this.type == null) {
       inv = Bukkit.createInventory(null, this.size, this.title);
       for (Iterator<Integer> iterator = items.keySet().iterator(); iterator.hasNext(); ) {
-        int i = ((Integer)iterator.next()).intValue();
+        int i = iterator.next().intValue();
         inv.setItem(i, items.get(Integer.valueOf(i)));
       } 
     } else {
       inv = Bukkit.createInventory(null, this.type, this.title);
       for (Iterator<Integer> iterator = items.keySet().iterator(); iterator.hasNext(); ) {
-        int i = ((Integer)iterator.next()).intValue();
+        int i = iterator.next().intValue();
         inv.setItem(i, items.get(Integer.valueOf(i)));
       } 
     } 
