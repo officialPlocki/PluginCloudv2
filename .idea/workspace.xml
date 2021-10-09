@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="AstroPermsBungee" />
+      <artifact name="AstroPermsSpigot" />
+      <artifact name="BanSystemBungee" />
+      <artifact name="BanSystemSpigot" />
+      <artifact name="BungeeCordCore" />
+      <artifact name="FULL-DEV-KIT" />
+      <artifact name="GameAPI" />
       <artifact name="Libary" />
+      <artifact name="SpigotCore" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,21 +18,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="separated perms from libary &amp; bungeecord core">
-      <change afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/BanCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/BanInfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BanSystem/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/ro/menast/bansystem/BansystemBungeeCord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/ro/menast/bansystem/utils/messages/BanInfoMessageBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/resources/bungee.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/java/ro/menast/bansystem/BansystemPaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BanSystem/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/ro/menast/astroperms/commands/AstropermsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/ro/menast/astroperms/commands/AstropermsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Astroperms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Astroperms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/BanCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/ro/menast/bansystem/commands/BanCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core/commands/BanInfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/ro/menast/bansystem/commands/BanInfoCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-common/core-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BanSystem/bansystem-paper/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/BanAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/BanAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/BanMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/BanMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/IBanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/BanBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/language/LanguageAPI$langs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/language/LanguageAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/language/LanguageAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/IBanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/language/LanguageAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/language/LanguageAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/BanAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/ro/menast/bansystem/utils/ban/BanAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/BanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/ro/menast/bansystem/utils/ban/BanBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/BanMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/ro/menast/bansystem/utils/ban/BanMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/ban/IBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/ro/menast/bansystem/utils/ban/IBan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/java/ro/menast/bansystem/utils/ban/BanAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/java/ro/menast/bansystem/utils/ban/BanBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/BanMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/java/ro/menast/bansystem/utils/ban/BanMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/ban/IBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/java/ro/menast/bansystem/utils/ban/IBan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Libary/Libary.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Libary/Libary.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="4d3256c0-41e9-40ce-b003-76d29b6b099d" name="Changes by EinfachKonrad-A" comment="Changes by EinfachKonrad-A" />
     <list id="89913761-a681-4677-8259-42cf83f9d525" name="Changes by Marc Birnthaler" comment="Changes by Marc Birnthaler nd EinfachKonrad-A" />
@@ -88,8 +111,8 @@
     <property name="app.teamhub.trackedBranches" value="-1h0uc9k/master" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/core-bungeecord/src/main/java/ro/menast/core" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jars/Replay.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/java/ro/menast/bansystem/utils/ban" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.23122066" />
     <property name="project.structure.side.proportion" value="0.5657492" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -97,15 +120,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pflug\IdeaProjects\menastro\api\BanSystem\bansystem-paper\src\main\java\ro\menast\bansystem\utils\ban" />
+      <recent name="C:\Users\Pflug\IdeaProjects\menastro\api\BanSystem\bansystem-bungeecord\src\main\java\ro\menast\bansystem\utils\messages" />
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\jars" />
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\libary\src\main\java\ro\menast\libary\bungee\utils" />
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\libary\src\main\java" />
-      <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\libary\src\main\java\ro\menast\libary\bungee\utils\sync" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\libary\src\main\java" />
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\jars" />
       <recent name="C:\Users\Pflug\IdeaProjects\menastro-core\libary\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ro.menast.bansystem.utils.ban" />
+      <recent name="ro.menast.bansystem.utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ro.menast.libary.bungee.utils.sync" />
@@ -168,6 +196,64 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/Astroperms" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="BanSystem build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="Bundled (Maven 3)" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/BanSystem" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -352,6 +438,7 @@
       <item itemvalue="Maven.GameAPI build" />
       <item itemvalue="Maven.libary build" />
       <item itemvalue="Maven.menastro-core build" />
+      <item itemvalue="Maven.BanSystem build" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -386,7 +473,9 @@
       <workItem from="1632669320434" duration="1389000" />
       <workItem from="1633170720720" duration="7869000" />
       <workItem from="1633211569206" duration="4199000" />
-      <workItem from="1633269506003" duration="2022000" />
+      <workItem from="1633269506003" duration="3357000" />
+      <workItem from="1633450054675" duration="24000" />
+      <workItem from="1633803773452" duration="2555000" />
     </task>
     <task id="LOCAL-00001" summary="init 2">
       <created>1630337792212</created>
@@ -479,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633126462067</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="separated perms from libary &amp; bungeecord core">
+      <created>1633273824991</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1633273824991</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

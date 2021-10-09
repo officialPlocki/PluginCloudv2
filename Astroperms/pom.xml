@@ -47,7 +47,6 @@
     </build>
 
     <modules>
-        <module>astroperms-common</module>
         <module>astroperms-paper</module>
         <module>astroperms-bungeecord</module>
     </modules>

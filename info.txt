@@ -22,6 +22,10 @@ ban.ban
 ban.noreplayid
 ban.younotbanned
 
+ban.bannedat
+ban.bannedto
+
+
 general.nopermission
 
 

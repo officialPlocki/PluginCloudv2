@@ -1,4 +1,4 @@
-package ro.menast.libary.spigot.utils.ban;
+package ro.menast.bansystem.utils.ban;
 
 import ro.menast.libary.spigot.utils.player.Player;
 

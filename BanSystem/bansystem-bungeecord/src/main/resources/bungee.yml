@@ -1,0 +1,3 @@
+name: Bansystem
+version: '${project.version}'
+main: ro.menast.bansystem.BansystemBungeeCord

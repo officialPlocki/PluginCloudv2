@@ -1,4 +1,4 @@
-package ro.menast.libary.bungee.utils.ban;
+package ro.menast.bansystem.utils.ban;
 
 import ro.menast.libary.bungee.utils.player.Player;
 

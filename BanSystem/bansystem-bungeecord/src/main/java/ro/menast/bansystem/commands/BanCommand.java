@@ -1,12 +1,12 @@
-package ro.menast.core.commands;
+package ro.menast.bansystem.commands;
 
 import net.md_5.bungee.BungeeCord;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Command;
+import ro.menast.bansystem.utils.ban.BanAPI;
 import ro.menast.core.MenBungeeCordCore;
-import ro.menast.libary.bungee.utils.ban.BanAPI;
 import ro.menast.libary.bungee.utils.player.Player;
 import ro.menast.libary.bungee.utils.player.PlayerAPI;
 import ro.menast.libary.bungee.utils.project.ProjectManager;

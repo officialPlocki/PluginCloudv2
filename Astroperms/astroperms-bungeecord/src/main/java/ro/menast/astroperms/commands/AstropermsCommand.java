@@ -34,7 +34,7 @@ public class AstropermsCommand extends Command {
         projectManager.setMessage("perms.user.notfound", LanguageAPI.langs.DE, "§cSpieler %target% nicht gefunden!");
 
         playerAPI.getLanguage();
-        if (playerAPI.hasPermission("menastro.admin.perms")) {
+        if (commandSender.hasPermission("menastro.admin.perms")) {
             if (strings.length == 3) {
                 if (strings[0].equalsIgnoreCase("user")) {
                     ProxiedPlayer target = null;

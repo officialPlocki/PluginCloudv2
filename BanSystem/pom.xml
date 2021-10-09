@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ro.menast</groupId>
-    <artifactId>core</artifactId>
+    <artifactId>bansystem</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -47,7 +47,7 @@
     </build>
 
     <modules>
-        <module>core-spigot</module>
-        <module>core-bungeecord</module>
+        <module>bansystem-paper</module>
+        <module>bansystem-bungeecord</module>
     </modules>
 </project>

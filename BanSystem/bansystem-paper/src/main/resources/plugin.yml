@@ -1,0 +1,4 @@
+name: Bansystem
+version: '${project.version}'
+main: ro.menast.bansystem.BansystemPaper
+api-version: 1.17
