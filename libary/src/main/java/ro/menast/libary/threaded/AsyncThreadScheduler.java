@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 public class AsyncThreadScheduler {
 
-  public static ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+  public static ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
   private final Runnable runnable;
   
   public AsyncThreadScheduler(Runnable runnable) {
@@ -15,7 +15,7 @@ public class AsyncThreadScheduler {
   }
   
   public void runAsync() {
-    schedulee.schedule(this.runnable, 1L, TimeUnit.MILLISECONDS);
+    scheduler.schedule(this.runnable, 1L, TimeUnit.MILLISECONDS);
     Thread thread = new Thread(this.runnable);
   }
   
@@ -24,7 +24,7 @@ public class AsyncThreadScheduler {
   }
   
   public ScheduledFuture<?> scheduleAsyncTask(long initDelay, long milli) {
-    return scheduler.scheduleAtFixedRate(this.run, initDelay, milli, TimeUnit.MILLISECONDS);
+    return scheduler.scheduleAtFixedRate(this.runnable, initDelay, milli, TimeUnit.MILLISECONDS);
   }
 
 }

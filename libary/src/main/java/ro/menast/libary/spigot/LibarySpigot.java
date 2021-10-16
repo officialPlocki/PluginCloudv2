@@ -4,8 +4,8 @@ import me.tigerhix.lib.bossbar.BossbarLib;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
-import ro.menast.libary.spigot.utils.mysql.MySQLService;
 import ro.menast.libary.spigot.utils.filebuilder.FileBuilder;
+import ro.menast.libary.spigot.utils.mysql.MySQLService;
 import ro.menast.libary.spigot.utils.project.ProjectManager;
 import ro.menast.libary.spigot.utils.sync.OnlinePlayerData;
 
@@ -30,7 +30,7 @@ public final class LibarySpigot extends JavaPlugin {
       conf.set("mysql.password", "abc123");
       conf.set("mysql.database", "core");
       fb.save();
-    } 
+    }
     MySQLService.connect(conf.getString("mysql.host"), conf.getString("mysql.user"), conf.getString("mysql.database"), conf.getString("mysql.password"), conf.getString("mysql.port"));
     //MySQLService.setMaxConnections();
     mySQLService = new MySQLService();
