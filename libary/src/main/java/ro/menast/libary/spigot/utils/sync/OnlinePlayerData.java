@@ -82,7 +82,7 @@ public class OnlinePlayerData {
       } else if(getUniqueIdByIp(p) == null && getUniqueIdByName(p) == null) {
         setupPlayer(p);
       } else {
-        p.kickPlayer(LibarySpigot.getProjectManager().getMessage("playerdata.uniqueid.notverifyed", new PlayerAPI(p).getLanguage()));
+        p.kickPlayer(LibarySpigot.getProjectManager().getMessage("playerdata.uniqueid.notverifyed", new PlayerAPI(p.getUniqueId().toString()).getLanguage()));
       }
     }
 

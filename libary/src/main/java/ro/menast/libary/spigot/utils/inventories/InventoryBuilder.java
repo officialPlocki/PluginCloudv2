@@ -18,28 +18,31 @@ public class InventoryBuilder {
   public InventoryBuilder(String displayName, int size) {
     this.size = size;
     this.title = displayName;
-    this.type = null;
   }
   
   public InventoryBuilder(String displayName) {
     this.size = 0;
     this.title = displayName;
-    this.type = this.type;
   }
-  
+
+  public InventoryBuilder setInventoryType(InventoryType type) {
+    this.type = type;
+    return this;
+  }
+
   public Inventory buildInventory(Map<Integer, ItemStack> items) {
     Inventory inv;
     if (this.type == null) {
       inv = Bukkit.createInventory(null, this.size, this.title);
-      for (Iterator<Integer> iterator = items.keySet().iterator(); iterator.hasNext(); ) {
-        int i = iterator.next().intValue();
-        inv.setItem(i, items.get(Integer.valueOf(i)));
+      for (Integer integer : items.keySet()) {
+        int i = integer;
+        inv.setItem(i, items.get(i));
       } 
     } else {
       inv = Bukkit.createInventory(null, this.type, this.title);
       for (Iterator<Integer> iterator = items.keySet().iterator(); iterator.hasNext(); ) {
-        int i = iterator.next().intValue();
-        inv.setItem(i, items.get(Integer.valueOf(i)));
+        int i = iterator.next();
+        inv.setItem(i, items.get(i));
       } 
     } 
     return inv;
