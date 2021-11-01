@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Auth/Auth.iml" filepath="$PROJECT_DIR$/Auth/Auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/BanSystem/BanSystem.iml" filepath="$PROJECT_DIR$/BanSystem/BanSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/GameAPI/GameAPI.iml" filepath="$PROJECT_DIR$/GameAPI/GameAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Astroperms/astroperms-bungeecord/astroperms-bungeecord.iml" filepath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/astroperms-bungeecord.iml" />

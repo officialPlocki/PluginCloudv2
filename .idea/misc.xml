@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/GameAPI/pom.xml" />
         <option value="$PROJECT_DIR$/Astroperms/pom.xml" />
         <option value="$PROJECT_DIR$/BanSystem/pom.xml" />
+        <option value="$PROJECT_DIR$/Auth/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

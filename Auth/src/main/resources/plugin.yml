@@ -1,0 +1,3 @@
+name: Auth
+version: '${project.version}'
+main: me.refluxo.auth.paper.Auth

@@ -10,10 +10,9 @@ import ro.menast.libary.spigot.utils.project.ProjectManager;
 import ro.menast.libary.spigot.utils.sync.OnlinePlayerData;
 
 public final class LibarySpigot extends JavaPlugin {
+
   private static ProjectManager projectManager;
-  
   private static JavaPlugin instance;
-  
   private static MySQLService mySQLService;
   
   public void onEnable() {

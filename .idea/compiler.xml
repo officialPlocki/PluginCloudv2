@@ -12,6 +12,7 @@
         <module name="GameAPI" />
         <module name="astroperms-paper" />
         <module name="bansystem-paper" />
+        <module name="Auth" />
         <module name="astroperms-bungeecord" />
         <module name="core-bungeecord" />
       </profile>
@@ -20,6 +21,7 @@
       <module name="astroperms-bungeecord" target="1.8" />
       <module name="astroperms-common" target="1.8" />
       <module name="astroperms-paper" target="1.8" />
+      <module name="Auth" target="1.8" />
       <module name="BanSystem" target="1.5" />
       <module name="bansystem-bungeecord" target="1.8" />
       <module name="bansystem-common" target="1.8" />

@@ -17,14 +17,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="updated AsyncThreadScheduler">
-      <change afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/nick/NickMySQL.java" afterDir="false" />
+    <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="lul">
+      <change afterPath="$PROJECT_DIR$/Auth/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/me/refluxo/auth/libary/PlayerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/me/refluxo/auth/libary/mysql/MySQLManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/me/refluxo/auth/paper/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/inventories/InventoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/inventories/InventoryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/money/BitcoinAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/money/BitcoinAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/player/PlayerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/player/PlayerAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OnlinePlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/utils/sync/OnlinePlayerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/libary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/libary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/sync/PlayerDataMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/bungee/utils/sync/PlayerDataMirror.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/LibarySpigot.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/spigot/LibarySpigot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/threaded/AsyncThreadScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/java/ro/menast/libary/threaded/AsyncThreadScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <list id="4d3256c0-41e9-40ce-b003-76d29b6b099d" name="Changes by EinfachKonrad-A" comment="Changes by EinfachKonrad-A" />
     <list id="89913761-a681-4677-8259-42cf83f9d525" name="Changes by Marc Birnthaler" comment="Changes by Marc Birnthaler nd EinfachKonrad-A" />
@@ -128,6 +139,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.Astroperms build">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="core-spigot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="core-spigot" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Astroperms build" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings">
@@ -181,6 +205,64 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/Astroperms" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Auth build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="Bundled (Maven 3)" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="pluginUpdatePolicy" value="DEFAULT" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Auth" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -424,6 +506,7 @@
       <item itemvalue="Maven.GameAPI build" />
       <item itemvalue="Maven.libary build" />
       <item itemvalue="Maven.menastro-core build" />
+      <item itemvalue="Maven.Auth build" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -474,7 +557,11 @@
       <workItem from="1634500073185" duration="313000" />
       <workItem from="1634500437160" duration="338000" />
       <workItem from="1634761630202" duration="806000" />
-      <workItem from="1635075595157" duration="832000" />
+      <workItem from="1635075595157" duration="913000" />
+      <workItem from="1635177845575" duration="822000" />
+      <workItem from="1635636398366" duration="2640000" />
+      <workItem from="1635717340311" duration="73000" />
+      <workItem from="1635789701140" duration="1518000" />
     </task>
     <task id="LOCAL-00001" summary="init 2">
       <created>1630337792212</created>
@@ -595,7 +682,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634376291604</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="lul">
+      <created>1635076500421</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1635076500421</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +778,8 @@
     <MESSAGE value="separated bansystem" />
     <MESSAGE value="code cleanup" />
     <MESSAGE value="updated AsyncThreadScheduler" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated AsyncThreadScheduler" />
+    <MESSAGE value="lul" />
+    <option name="LAST_COMMIT_MESSAGE" value="lul" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
