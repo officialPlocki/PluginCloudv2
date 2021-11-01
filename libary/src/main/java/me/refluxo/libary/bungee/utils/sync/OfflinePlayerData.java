@@ -1,12 +1,12 @@
-package ro.menast.libary.bungee.utils.sync;
+package me.refluxo.libary.bungee.utils.sync;
 
+import me.refluxo.libary.bungee.LibaryBungee;
+import me.refluxo.libary.bungee.utils.mysql.MySQLService;
+import me.refluxo.libary.bungee.utils.sync.builder.OfflinePlayer;
+import me.refluxo.libary.bungee.utils.sync.builder.OfflinePlayerBuilder;
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
-import ro.menast.libary.bungee.LibaryBungee;
-import ro.menast.libary.bungee.utils.mysql.MySQLService;
-import ro.menast.libary.bungee.utils.sync.builder.OfflinePlayer;
-import ro.menast.libary.bungee.utils.sync.builder.OfflinePlayerBuilder;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

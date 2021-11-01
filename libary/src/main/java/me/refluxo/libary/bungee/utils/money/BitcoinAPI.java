@@ -1,8 +1,8 @@
-package ro.menast.libary.bungee.utils.money;
+package me.refluxo.libary.bungee.utils.money;
 
+import me.refluxo.libary.bungee.utils.filebuilder.FileBuilder;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.config.Configuration;
-import ro.menast.libary.bungee.utils.filebuilder.FileBuilder;
 
 import java.text.DecimalFormat;
 
@@ -19,7 +19,7 @@ public class BitcoinAPI {
   public static double getBitcoins(ProxiedPlayer p) {
     if (yml.get(p.getUniqueId().toString()) == null)
       return yml.getDouble(p.getUniqueId().toString()); 
-    yml.set(p.getUniqueId().toString(), Double.valueOf(0.0D));
+    yml.set(p.getUniqueId().toString(), 0.0D);
     fileBuilder.save();
     return 0.0D;
   }

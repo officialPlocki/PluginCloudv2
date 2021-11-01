@@ -1,6 +1,6 @@
-package ro.menast.libary.spigot.utils.player;
+package me.refluxo.libary.spigot.utils.player;
 
-import ro.menast.libary.spigot.utils.language.LanguageAPI;
+import me.refluxo.libary.spigot.utils.language.LanguageAPI;
 
 public class PlayerAPI {
 
@@ -12,9 +12,5 @@ public class PlayerAPI {
 
     public LanguageAPI.langs getLanguage() {
         return null;
-    }
-
-    public PlayerAPI nick(String nick) {
-
     }
 }

@@ -5,16 +5,16 @@ import org.bukkit.entity.Player;
 import org.bukkit.permissions.PermissibleBase;
 
 public class AstropermsPlayerAPI extends PermissibleBase {
-  private final ro.menast.libary.spigot.utils.player.Player p;
+  private final me.refluxo.libary.spigot.utils.player.Player p;
   
   public AstropermsPlayerAPI(Player player) {
     super(player);
-    this.p = new ro.menast.libary.spigot.utils.player.Player(player.getUniqueId().toString());
+    this.p = new me.refluxo.libary.spigot.utils.player.Player(player.getUniqueId().toString());
   }
 
   public AstropermsPlayerAPI(String uuid) {
     super(Bukkit.getPlayer(uuid));
-    this.p = new ro.menast.libary.spigot.utils.player.Player(uuid);
+    this.p = new me.refluxo.libary.spigot.utils.player.Player(uuid);
   }
   
   public boolean hasPermission(String inName) {
@@ -25,7 +25,7 @@ public class AstropermsPlayerAPI extends PermissibleBase {
     return false;
   }
   
-  public ro.menast.libary.spigot.utils.player.Player getPlayer() {
+  public me.refluxo.libary.spigot.utils.player.Player getPlayer() {
     return this.p;
   }
   

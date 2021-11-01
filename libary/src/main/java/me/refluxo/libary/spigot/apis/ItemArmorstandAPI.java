@@ -1,4 +1,4 @@
-package ro.menast.libary.spigot.apis;
+package me.refluxo.libary.spigot.apis;
 
 import org.bukkit.Location;
 import org.bukkit.entity.ArmorStand;

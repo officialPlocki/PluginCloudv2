@@ -1,4 +1,4 @@
-package ro.menast.libary.threaded;
+package me.refluxo.libary.threaded;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

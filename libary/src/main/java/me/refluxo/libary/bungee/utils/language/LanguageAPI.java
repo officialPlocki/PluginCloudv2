@@ -1,6 +1,6 @@
-package ro.menast.libary.bungee.utils.language;
+package me.refluxo.libary.bungee.utils.language;
 
-import ro.menast.libary.bungee.utils.filebuilder.FileBuilder;
+import me.refluxo.libary.bungee.utils.filebuilder.FileBuilder;
 
 public class LanguageAPI {
   private final FileBuilder fileBuilder;

@@ -1,8 +1,8 @@
 package me.refluxo.bansystem.utils.ban;
 
-import ro.menast.libary.bungee.LibaryBungee;
-import ro.menast.libary.bungee.utils.mysql.MySQLService;
-import ro.menast.libary.bungee.utils.player.Player;
+import me.refluxo.libary.bungee.LibaryBungee;
+import me.refluxo.libary.bungee.utils.mysql.MySQLService;
+import me.refluxo.libary.bungee.utils.player.Player;
 
 import java.sql.*;
 import java.util.Date;

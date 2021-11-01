@@ -1,10 +1,10 @@
-package ro.menast.libary.spigot.utils.sync;
+package me.refluxo.libary.spigot.utils.sync;
 
+import me.refluxo.libary.spigot.LibarySpigot;
+import me.refluxo.libary.spigot.utils.mysql.MySQLService;
+import me.refluxo.libary.spigot.utils.sync.builder.OfflinePlayer;
+import me.refluxo.libary.spigot.utils.sync.builder.OfflinePlayerBuilder;
 import org.bukkit.entity.Player;
-import ro.menast.libary.spigot.LibarySpigot;
-import ro.menast.libary.spigot.utils.mysql.MySQLService;
-import ro.menast.libary.spigot.utils.sync.builder.OfflinePlayer;
-import ro.menast.libary.spigot.utils.sync.builder.OfflinePlayerBuilder;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

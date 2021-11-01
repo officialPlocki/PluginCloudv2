@@ -1,10 +1,10 @@
-package ro.menast.libary.spigot.bungeecord;
+package me.refluxo.libary.spigot.bungeecord;
 
 import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
+import me.refluxo.libary.spigot.LibarySpigot;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
-import ro.menast.libary.spigot.LibarySpigot;
 
 import java.util.Objects;
 

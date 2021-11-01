@@ -1,9 +1,9 @@
-package ro.menast.libary.spigot.utils.money;
+package me.refluxo.libary.spigot.utils.money;
 
+import me.refluxo.libary.spigot.LibarySpigot;
+import me.refluxo.libary.spigot.utils.mysql.MySQLService;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
-import ro.menast.libary.spigot.LibarySpigot;
-import ro.menast.libary.spigot.utils.mysql.MySQLService;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

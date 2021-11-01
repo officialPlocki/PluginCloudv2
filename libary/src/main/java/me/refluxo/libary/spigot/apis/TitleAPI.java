@@ -1,11 +1,11 @@
-package ro.menast.libary.spigot.apis;
+package me.refluxo.libary.spigot.apis;
 
+import me.refluxo.libary.spigot.utils.Version;
 import net.minecraft.server.v1_8_R3.IChatBaseComponent;
 import net.minecraft.server.v1_8_R3.PacketPlayOutTitle;
 import org.bukkit.ChatColor;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
 import org.bukkit.entity.Player;
-import ro.menast.libary.spigot.utils.Version;
 
 public class TitleAPI {
 

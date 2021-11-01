@@ -3,9 +3,9 @@ package me.refluxo.bansystem.utils.messages;
 import me.refluxo.bansystem.utils.ban.BanAPI;
 import me.refluxo.bansystem.utils.ban.IBan;
 import me.refluxo.core.MenBungeeCordCore;
+import me.refluxo.libary.bungee.utils.language.LanguageAPI;
+import me.refluxo.libary.bungee.utils.project.ProjectManager;
 import net.md_5.bungee.BungeeCord;
-import ro.menast.libary.bungee.utils.language.LanguageAPI;
-import ro.menast.libary.bungee.utils.project.ProjectManager;
 
 public class BanInfoMessageBuilder {
 

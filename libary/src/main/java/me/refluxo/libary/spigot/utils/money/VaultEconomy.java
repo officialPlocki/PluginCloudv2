@@ -1,4 +1,4 @@
-package ro.menast.libary.spigot.utils.money;
+package me.refluxo.libary.spigot.utils.money;
 
 import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.economy.EconomyResponse;
@@ -62,22 +62,22 @@ public class VaultEconomy implements Economy {
   }
   
   public EconomyResponse depositPlayer(String arg0, double arg1) {
-    BitcoinAPI.addBitcoins(Bukkit.getPlayerExact(arg0), arg1);
+    MoneyAPI.addBitcoins(Bukkit.getPlayerExact(arg0), arg1);
     return new EconomyResponse(arg1, getBalance(arg0), EconomyResponse.ResponseType.SUCCESS, "It worked!");
   }
   
   public EconomyResponse depositPlayer(OfflinePlayer arg0, double arg1) {
-    BitcoinAPI.addBitcoins(arg0, arg1);
+    MoneyAPI.addBitcoins(arg0, arg1);
     return new EconomyResponse(arg1, getBalance(arg0), EconomyResponse.ResponseType.SUCCESS, "It worked!");
   }
   
   public EconomyResponse depositPlayer(String arg0, String arg1, double arg2) {
-    BitcoinAPI.addBitcoins(Bukkit.getPlayerExact(arg0), arg2);
+    MoneyAPI.addBitcoins(Bukkit.getPlayerExact(arg0), arg2);
     return new EconomyResponse(arg2, getBalance(arg0), EconomyResponse.ResponseType.SUCCESS, "It worked!");
   }
   
   public EconomyResponse depositPlayer(OfflinePlayer arg0, String arg1, double arg2) {
-    BitcoinAPI.addBitcoins(arg0, arg2);
+    MoneyAPI.addBitcoins(arg0, arg2);
     return new EconomyResponse(arg2, getBalance(arg0), EconomyResponse.ResponseType.SUCCESS, "It worked!");
   }
   
@@ -90,19 +90,19 @@ public class VaultEconomy implements Economy {
   }
   
   public double getBalance(String arg0) {
-    return BitcoinAPI.getBitcoins(Objects.requireNonNull(Bukkit.getPlayerExact(arg0)));
+    return MoneyAPI.getBitcoins(Objects.requireNonNull(Bukkit.getPlayerExact(arg0)));
   }
   
   public double getBalance(OfflinePlayer arg0) {
-    return BitcoinAPI.getBitcoins(arg0);
+    return MoneyAPI.getBitcoins(arg0);
   }
   
   public double getBalance(String arg0, String arg1) {
-    return BitcoinAPI.getBitcoins(Objects.requireNonNull(Bukkit.getPlayerExact(arg0)));
+    return MoneyAPI.getBitcoins(Objects.requireNonNull(Bukkit.getPlayerExact(arg0)));
   }
   
   public double getBalance(OfflinePlayer arg0, String arg1) {
-    return BitcoinAPI.getBitcoins(arg0);
+    return MoneyAPI.getBitcoins(arg0);
   }
   
   public List<String> getBanks() {
@@ -114,19 +114,19 @@ public class VaultEconomy implements Economy {
   }
   
   public boolean has(String arg0, double arg1) {
-    return (BitcoinAPI.getBitcoins(Objects.requireNonNull(Bukkit.getPlayerExact(arg0))) >= arg1);
+    return (MoneyAPI.getBitcoins(Objects.requireNonNull(Bukkit.getPlayerExact(arg0))) >= arg1);
   }
   
   public boolean has(OfflinePlayer arg0, double arg1) {
-    return (BitcoinAPI.getBitcoins(arg0) >= arg1);
+    return (MoneyAPI.getBitcoins(arg0) >= arg1);
   }
   
   public boolean has(String arg0, String arg1, double arg2) {
-    return (BitcoinAPI.getBitcoins(Objects.requireNonNull(Bukkit.getPlayerExact(arg0))) >= arg2);
+    return (MoneyAPI.getBitcoins(Objects.requireNonNull(Bukkit.getPlayerExact(arg0))) >= arg2);
   }
   
   public boolean has(OfflinePlayer arg0, String arg1, double arg2) {
-    return (BitcoinAPI.getBitcoins(arg0) >= arg2);
+    return (MoneyAPI.getBitcoins(arg0) >= arg2);
   }
   
   public boolean hasAccount(String arg0) {
@@ -170,22 +170,22 @@ public class VaultEconomy implements Economy {
   }
   
   public EconomyResponse withdrawPlayer(String arg0, double arg1) {
-    BitcoinAPI.removeBitcoins(Bukkit.getPlayerExact(arg0), arg1);
+    MoneyAPI.removeBitcoins(Bukkit.getPlayerExact(arg0), arg1);
     return new EconomyResponse(arg1, getBalance(arg0), EconomyResponse.ResponseType.SUCCESS, "It worked!");
   }
   
   public EconomyResponse withdrawPlayer(OfflinePlayer arg0, double arg1) {
-    BitcoinAPI.removeBitcoins(arg0, arg1);
+    MoneyAPI.removeBitcoins(arg0, arg1);
     return new EconomyResponse(arg1, getBalance(arg0), EconomyResponse.ResponseType.SUCCESS, "It worked!");
   }
   
   public EconomyResponse withdrawPlayer(String arg0, String arg1, double arg2) {
-    BitcoinAPI.removeBitcoins(Bukkit.getPlayerExact(arg0), arg2);
+    MoneyAPI.removeBitcoins(Bukkit.getPlayerExact(arg0), arg2);
     return new EconomyResponse(arg2, getBalance(arg0), EconomyResponse.ResponseType.SUCCESS, "It worked!");
   }
   
   public EconomyResponse withdrawPlayer(OfflinePlayer arg0, String arg1, double arg2) {
-    BitcoinAPI.removeBitcoins(arg0, arg2);
+    MoneyAPI.removeBitcoins(arg0, arg2);
     return new EconomyResponse(arg2, getBalance(arg0), EconomyResponse.ResponseType.SUCCESS, "It worked!");
   }
 }

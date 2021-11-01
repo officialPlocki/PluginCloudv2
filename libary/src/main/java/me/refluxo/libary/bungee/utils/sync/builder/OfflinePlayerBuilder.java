@@ -1,4 +1,4 @@
-package ro.menast.libary.bungee.utils.sync.builder;
+package me.refluxo.libary.bungee.utils.sync.builder;
 
 public class OfflinePlayerBuilder implements OfflinePlayer {
 

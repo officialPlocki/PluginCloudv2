@@ -1,5 +1,8 @@
-package ro.menast.libary.spigot.apis;
+package me.refluxo.libary.spigot.apis;
 
+import me.refluxo.libary.spigot.LibarySpigot;
+import me.refluxo.libary.spigot.utils.Version;
+import me.refluxo.libary.threaded.AsyncThreadScheduler;
 import org.bukkit.Bukkit;
 import org.bukkit.boss.BarColor;
 import org.bukkit.boss.BarFlag;
@@ -7,9 +10,6 @@ import org.bukkit.boss.BarStyle;
 import org.bukkit.boss.BossBar;
 import org.bukkit.entity.Player;
 import placeholder.tigerhix.lib.bossbar.BossbarLib;
-import ro.menast.libary.spigot.LibarySpigot;
-import ro.menast.libary.spigot.utils.Version;
-import ro.menast.libary.threaded.AsyncThreadScheduler;
 
 public class BossbarAPI {
   public void sendBossbar(Player p, String text, int time) {

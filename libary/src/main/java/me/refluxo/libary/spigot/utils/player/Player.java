@@ -1,7 +1,7 @@
-package ro.menast.libary.spigot.utils.player;
+package me.refluxo.libary.spigot.utils.player;
 
+import me.refluxo.libary.spigot.utils.sync.OfflinePlayerData;
 import org.bukkit.Bukkit;
-import ro.menast.libary.spigot.utils.sync.OfflinePlayerData;
 
 import java.util.Objects;
 

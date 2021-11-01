@@ -1,11 +1,9 @@
-package ro.menast.libary.spigot.utils.nick;
+package me.refluxo.libary.spigot.utils.nick;
 
-import ro.menast.libary.spigot.LibarySpigot;
-import ro.menast.libary.spigot.utils.mysql.MySQLService;
+import me.refluxo.libary.spigot.LibarySpigot;
+import me.refluxo.libary.spigot.utils.mysql.MySQLService;
 
 import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 
 public class NickMySQL {
 
@@ -13,11 +11,7 @@ public class NickMySQL {
     private static final Connection connection = mySQLService.getConnection();
 
     public static void setup() {
-        try {
-            PreparedStatement ps = connection.prepareStatement("CREATE DATABASE IF NOT EXISTS nick(uuid TEXT, nickName TEXT, nicked BOOLEAN)");
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        mySQLService.executeUpdate("CREATE DATABASE IF NOT EXISTS nick(uuid TEXT, nickName TEXT, nicked BOOLEAN)");
     }
 
 }

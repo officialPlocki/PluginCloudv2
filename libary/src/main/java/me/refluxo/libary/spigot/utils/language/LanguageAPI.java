@@ -1,6 +1,6 @@
-package ro.menast.libary.spigot.utils.language;
+package me.refluxo.libary.spigot.utils.language;
 
-import ro.menast.libary.spigot.utils.filebuilder.FileBuilder;
+import me.refluxo.libary.spigot.utils.filebuilder.FileBuilder;
 
 public class LanguageAPI {
   private final FileBuilder fileBuilder;

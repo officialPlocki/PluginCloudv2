@@ -1,6 +1,6 @@
-package ro.menast.libary.bungee.utils.project;
+package me.refluxo.libary.bungee.utils.project;
 
-import ro.menast.libary.bungee.utils.language.LanguageAPI;
+import me.refluxo.libary.bungee.utils.language.LanguageAPI;
 
 public class ProjectManager {
   String project;

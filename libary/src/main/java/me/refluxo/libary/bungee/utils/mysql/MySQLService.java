@@ -1,4 +1,4 @@
-package ro.menast.libary.bungee.utils.mysql;
+package me.refluxo.libary.bungee.utils.mysql;
 
 import java.sql.*;
 

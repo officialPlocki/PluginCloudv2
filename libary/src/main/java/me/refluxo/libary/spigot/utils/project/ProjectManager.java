@@ -1,6 +1,6 @@
-package ro.menast.libary.spigot.utils.project;
+package me.refluxo.libary.spigot.utils.project;
 
-import ro.menast.libary.spigot.utils.language.LanguageAPI;
+import me.refluxo.libary.spigot.utils.language.LanguageAPI;
 
 public class ProjectManager {
   String project;

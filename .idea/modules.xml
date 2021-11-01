@@ -12,8 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" filepath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-spigot/core-spigot.iml" filepath="$PROJECT_DIR$/core-spigot/core-spigot.iml" />
       <module fileurl="file://$PROJECT_DIR$/libary/libary.iml" filepath="$PROJECT_DIR$/libary/libary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/menastro-core.iml" filepath="$PROJECT_DIR$/menastro-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/Astroperms/paused.iml" filepath="$PROJECT_DIR$/Astroperms/paused.iml" />
+      <module fileurl="file://$PROJECT_DIR$/refluxo-core.iml" filepath="$PROJECT_DIR$/refluxo-core.iml" />
     </modules>
   </component>
 </project>

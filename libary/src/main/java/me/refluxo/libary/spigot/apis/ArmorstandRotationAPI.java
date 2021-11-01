@@ -1,10 +1,10 @@
-package ro.menast.libary.spigot.apis;
+package me.refluxo.libary.spigot.apis;
 
+import me.refluxo.libary.threaded.AsyncThreadScheduler;
 import org.bukkit.Location;
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.EntityType;
 import org.bukkit.inventory.ItemStack;
-import ro.menast.libary.threaded.AsyncThreadScheduler;
 
 import java.util.Objects;
 import java.util.concurrent.ScheduledFuture;

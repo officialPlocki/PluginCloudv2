@@ -1,8 +1,8 @@
 package me.refluxo.core;
 
+import me.refluxo.libary.bungee.utils.mysql.MySQLService;
+import me.refluxo.libary.bungee.utils.project.ProjectManager;
 import net.md_5.bungee.api.plugin.Plugin;
-import ro.menast.libary.bungee.utils.mysql.MySQLService;
-import ro.menast.libary.bungee.utils.project.ProjectManager;
 
 public class MenBungeeCordCore extends Plugin {
 

@@ -2,12 +2,12 @@ package me.refluxo.bansystem.commands;
 
 import me.refluxo.bansystem.utils.ban.BanAPI;
 import me.refluxo.core.MenBungeeCordCore;
+import me.refluxo.libary.bungee.utils.player.Player;
+import me.refluxo.libary.bungee.utils.player.PlayerAPI;
+import me.refluxo.libary.bungee.utils.project.ProjectManager;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.plugin.Command;
-import ro.menast.libary.bungee.utils.player.Player;
-import ro.menast.libary.bungee.utils.player.PlayerAPI;
-import ro.menast.libary.bungee.utils.project.ProjectManager;
 
 public class BanInfoCommand extends Command {
 

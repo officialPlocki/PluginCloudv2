@@ -1,8 +1,8 @@
-package ro.menast.libary.bungee.utils.player;
+package me.refluxo.libary.bungee.utils.player;
 
+import me.refluxo.libary.bungee.utils.sync.OfflinePlayerData;
 import net.md_5.bungee.BungeeCord;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
-import ro.menast.libary.bungee.utils.sync.OfflinePlayerData;
 
 public class Player {
 

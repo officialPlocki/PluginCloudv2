@@ -1,4 +1,4 @@
-package ro.menast.libary.spigot.utils.sync.builder;
+package me.refluxo.libary.spigot.utils.sync.builder;
 
 public class OnlinePlayerBuilder implements OnlinePlayer {
 

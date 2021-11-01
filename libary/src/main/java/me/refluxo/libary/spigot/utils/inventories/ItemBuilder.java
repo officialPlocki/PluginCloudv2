@@ -1,4 +1,4 @@
-package ro.menast.libary.spigot.utils.inventories;
+package me.refluxo.libary.spigot.utils.inventories;
 
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;

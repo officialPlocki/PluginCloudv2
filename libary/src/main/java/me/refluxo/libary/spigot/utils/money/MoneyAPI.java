@@ -1,13 +1,13 @@
-package ro.menast.libary.spigot.utils.money;
+package me.refluxo.libary.spigot.utils.money;
 
+import me.refluxo.libary.spigot.utils.filebuilder.FileBuilder;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
-import ro.menast.libary.spigot.utils.filebuilder.FileBuilder;
 
 import java.text.DecimalFormat;
 
-public class BitcoinAPI {
+public class MoneyAPI {
 
   private static FileBuilder fileBuilder;
   private static YamlConfiguration yml;

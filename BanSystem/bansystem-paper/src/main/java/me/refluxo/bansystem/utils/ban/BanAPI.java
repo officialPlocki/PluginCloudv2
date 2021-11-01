@@ -1,6 +1,6 @@
 package me.refluxo.bansystem.utils.ban;
 
-import ro.menast.libary.spigot.utils.player.Player;
+import me.refluxo.libary.spigot.utils.player.Player;
 
 public class BanAPI {
 

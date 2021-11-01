@@ -1,13 +1,13 @@
-package ro.menast.libary.spigot;
+package me.refluxo.libary.spigot;
 
+import me.refluxo.libary.spigot.utils.filebuilder.FileBuilder;
+import me.refluxo.libary.spigot.utils.mysql.MySQLService;
+import me.refluxo.libary.spigot.utils.project.ProjectManager;
+import me.refluxo.libary.spigot.utils.sync.OnlinePlayerData;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 import placeholder.tigerhix.lib.bossbar.BossbarLib;
-import ro.menast.libary.spigot.utils.filebuilder.FileBuilder;
-import ro.menast.libary.spigot.utils.mysql.MySQLService;
-import ro.menast.libary.spigot.utils.project.ProjectManager;
-import ro.menast.libary.spigot.utils.sync.OnlinePlayerData;
 
 public final class LibarySpigot extends JavaPlugin {
 

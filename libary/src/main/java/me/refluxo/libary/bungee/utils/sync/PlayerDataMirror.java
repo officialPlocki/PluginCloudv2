@@ -1,4 +1,4 @@
-package ro.menast.libary.bungee.utils.sync;
+package me.refluxo.libary.bungee.utils.sync;
 
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 

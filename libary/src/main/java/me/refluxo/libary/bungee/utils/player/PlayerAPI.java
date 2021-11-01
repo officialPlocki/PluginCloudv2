@@ -1,6 +1,6 @@
-package ro.menast.libary.bungee.utils.player;
+package me.refluxo.libary.bungee.utils.player;
 
-import ro.menast.libary.bungee.utils.language.LanguageAPI;
+import me.refluxo.libary.bungee.utils.language.LanguageAPI;
 
 public class PlayerAPI {
   

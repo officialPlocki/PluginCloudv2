@@ -1,10 +1,10 @@
 package placeholder.tigerhix.lib.bossbar;
 
+import me.refluxo.libary.spigot.LibarySpigot;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import placeholder.tigerhix.lib.bossbar.handler.BossbarHandler;
 import placeholder.tigerhix.lib.bossbar.handler.WitherBossbarHandler;
-import ro.menast.libary.spigot.LibarySpigot;
 
 public final class BossbarLib extends JavaPlugin {
   

@@ -1,13 +1,13 @@
-package ro.menast.libary.bungee;
+package me.refluxo.libary.bungee;
 
+import me.refluxo.libary.bungee.utils.filebuilder.FileBuilder;
+import me.refluxo.libary.bungee.utils.money.BitcoinAPI;
+import me.refluxo.libary.bungee.utils.mysql.MySQLService;
+import me.refluxo.libary.bungee.utils.project.ProjectManager;
+import me.refluxo.libary.bungee.utils.sync.OnlinePlayerData;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.config.Configuration;
 import org.bukkit.Bukkit;
-import ro.menast.libary.bungee.utils.filebuilder.FileBuilder;
-import ro.menast.libary.bungee.utils.money.BitcoinAPI;
-import ro.menast.libary.bungee.utils.mysql.MySQLService;
-import ro.menast.libary.bungee.utils.project.ProjectManager;
-import ro.menast.libary.bungee.utils.sync.OnlinePlayerData;
 
 public class LibaryBungee extends Plugin {
   private static Plugin instance;

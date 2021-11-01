@@ -1,4 +1,4 @@
-package ro.menast.libary.spigot.utils.mysql;
+package me.refluxo.libary.spigot.utils.mysql;
 
 import java.sql.*;
 

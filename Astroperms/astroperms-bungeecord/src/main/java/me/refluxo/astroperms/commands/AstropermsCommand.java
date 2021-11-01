@@ -3,16 +3,16 @@ package me.refluxo.astroperms.commands;
 import me.refluxo.astroperms.api.permissions.AstropermsGroupAPI;
 import me.refluxo.astroperms.api.permissions.AstropermsPlayerAPI;
 import me.refluxo.core.MenBungeeCordCore;
+import me.refluxo.libary.bungee.utils.language.LanguageAPI;
+import me.refluxo.libary.bungee.utils.player.Player;
+import me.refluxo.libary.bungee.utils.player.PlayerAPI;
+import me.refluxo.libary.bungee.utils.project.ProjectManager;
+import me.refluxo.libary.bungee.utils.sync.OfflinePlayerData;
+import me.refluxo.libary.bungee.utils.sync.builder.OfflinePlayer;
 import net.md_5.bungee.BungeeCord;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Command;
-import ro.menast.libary.bungee.utils.language.LanguageAPI;
-import ro.menast.libary.bungee.utils.player.Player;
-import ro.menast.libary.bungee.utils.player.PlayerAPI;
-import ro.menast.libary.bungee.utils.project.ProjectManager;
-import ro.menast.libary.bungee.utils.sync.OfflinePlayerData;
-import ro.menast.libary.bungee.utils.sync.builder.OfflinePlayer;
 
 public class AstropermsCommand extends Command {
 

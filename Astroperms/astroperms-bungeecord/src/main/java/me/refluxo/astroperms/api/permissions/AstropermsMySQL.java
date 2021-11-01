@@ -1,8 +1,8 @@
 package me.refluxo.astroperms.api.permissions;
 
-import ro.menast.libary.bungee.LibaryBungee;
-import ro.menast.libary.bungee.utils.mysql.MySQLService;
-import ro.menast.libary.bungee.utils.player.Player;
+import me.refluxo.libary.bungee.LibaryBungee;
+import me.refluxo.libary.bungee.utils.mysql.MySQLService;
+import me.refluxo.libary.bungee.utils.player.Player;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

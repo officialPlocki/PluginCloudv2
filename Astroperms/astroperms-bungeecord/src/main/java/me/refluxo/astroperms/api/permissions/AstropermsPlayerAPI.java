@@ -1,6 +1,6 @@
 package me.refluxo.astroperms.api.permissions;
 
-import ro.menast.libary.bungee.utils.player.Player;
+import me.refluxo.libary.bungee.utils.player.Player;
 
 public class AstropermsPlayerAPI {
   private final Player p;

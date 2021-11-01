@@ -1,8 +1,8 @@
 package me.refluxo.bansystem.utils.ban;
 
-import ro.menast.libary.spigot.LibarySpigot;
-import ro.menast.libary.spigot.utils.mysql.MySQLService;
-import ro.menast.libary.spigot.utils.player.Player;
+import me.refluxo.libary.spigot.LibarySpigot;
+import me.refluxo.libary.spigot.utils.mysql.MySQLService;
+import me.refluxo.libary.spigot.utils.player.Player;
 
 import java.sql.*;
 import java.util.Date;
