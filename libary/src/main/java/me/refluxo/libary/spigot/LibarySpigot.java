@@ -1,6 +1,8 @@
 package me.refluxo.libary.spigot;
 
+import me.refluxo.libary.spigot.listener.JoinListener;
 import me.refluxo.libary.spigot.utils.filebuilder.FileBuilder;
+import me.refluxo.libary.spigot.utils.money.MoneyAPI;
 import me.refluxo.libary.spigot.utils.mysql.MySQLService;
 import me.refluxo.libary.spigot.utils.project.ProjectManager;
 import me.refluxo.libary.spigot.utils.sync.OnlinePlayerData;
@@ -35,6 +37,8 @@ public final class LibarySpigot extends JavaPlugin {
     mySQLService = new MySQLService();
     BossbarLib.setHandler();
     OnlinePlayerData.OnlinePlayerDataMySQL.init();
+    MoneyAPI.setup();
+    Bukkit.getPluginManager().registerEvents(new JoinListener(), this);
   }
 
   public void onDisable() {

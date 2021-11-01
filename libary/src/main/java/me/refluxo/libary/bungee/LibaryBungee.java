@@ -1,10 +1,12 @@
 package me.refluxo.libary.bungee;
 
+import me.refluxo.libary.bungee.listener.JoinListener;
 import me.refluxo.libary.bungee.utils.filebuilder.FileBuilder;
-import me.refluxo.libary.bungee.utils.money.BitcoinAPI;
+import me.refluxo.libary.bungee.utils.money.CoinsAPI;
 import me.refluxo.libary.bungee.utils.mysql.MySQLService;
 import me.refluxo.libary.bungee.utils.project.ProjectManager;
 import me.refluxo.libary.bungee.utils.sync.OnlinePlayerData;
+import net.md_5.bungee.BungeeCord;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.config.Configuration;
 import org.bukkit.Bukkit;
@@ -34,8 +36,9 @@ public class LibaryBungee extends Plugin {
     MySQLService.connect(conf.getString("mysql.host"), conf.getString("mysql.user"), conf.getString("mysql.database"), conf.getString("mysql.password"), conf.getString("mysql.port"));
     MySQLService.setMaxConnections();
     mySQLService = new MySQLService();
-    BitcoinAPI.setup();
+    CoinsAPI.setup();
     OnlinePlayerData.OnlinePlayerDataMySQL.init();
+    BungeeCord.getInstance().getPluginManager().registerListener(this, new JoinListener());
   }
   
   public void onDisable() {}

@@ -1,3 +1,10 @@
-name: Auth
-version: '${project.version}'
-main: me.refluxo.auth.paper.Auth
+name: AuthPaper
+author: Refluxo Development
+version: ${project.build}
+main: me.refluxo.auth.paper.AuthPaper
+depends:
+  - Libary
+description: Refluxo Authentification
+loadbefore:
+  - Libary
+load: STARTUP

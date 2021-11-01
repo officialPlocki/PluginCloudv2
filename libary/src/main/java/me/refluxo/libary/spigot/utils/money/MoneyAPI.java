@@ -17,7 +17,7 @@ public class MoneyAPI {
     yml = fileBuilder.getYaml();
   }
 
-  public static double getBitcoins(Player p) {
+  public static double getMoney(Player p) {
     if (yml.isSet(p.getUniqueId().toString()))
       return yml.getDouble(p.getUniqueId().toString());
     yml.set(p.getUniqueId().toString(), 0.0D);
@@ -25,7 +25,7 @@ public class MoneyAPI {
     return 0.0D;
   }
 
-  public static String getVisualBitcoins(Player p) {
+  public static String getVisualMoney(Player p) {
     DecimalFormat df = new DecimalFormat("#,###.##");
     if (yml.isSet(p.getUniqueId().toString())) {
       double a = yml.getDouble(p.getUniqueId().toString());
@@ -36,29 +36,29 @@ public class MoneyAPI {
     return df.format(0.0D);
   }
   
-  public static void setBitcoins(Player p, double amount) {
+  public static void setMoney(Player p, double amount) {
     yml.set(p.getUniqueId().toString(), amount);
     fileBuilder.save();
   }
   
-  public static void addBitcoins(Player p, double amount) {
-    setBitcoins(p, getBitcoins(p) + amount);
+  public static void addMoney(Player p, double amount) {
+    setMoney(p, getMoney(p) + amount);
   }
 
-  public static void removeBitcoins(Player p, double amount) {
-    setBitcoins(p, getBitcoins(p) - amount);
+  public static void removeMoney(Player p, double amount) {
+    setMoney(p, getMoney(p) - amount);
   }
   
-  public static void resetBitcoins(Player p) {
+  public static void resetMoney(Player p) {
     yml.set(p.getUniqueId().toString(), 0);
     fileBuilder.save();
   }
   
-  public static boolean hasBitcoins(Player p, double amount) {
-      return getBitcoins(p) == amount || getBitcoins(p) >= amount;
+  public static boolean hasMoney(Player p, double amount) {
+      return getMoney(p) == amount || getMoney(p) >= amount;
   }
   
-  public static double getBitcoins(OfflinePlayer p) {
+  public static double getMoney(OfflinePlayer p) {
     if (yml.isSet(p.getUniqueId().toString()))
       return yml.getDouble(p.getUniqueId().toString()); 
     yml.set(p.getUniqueId().toString(), 0.0D);
@@ -66,7 +66,7 @@ public class MoneyAPI {
     return 0.0D;
   }
   
-  public static String getVisualBitcoins(OfflinePlayer p) {
+  public static String getVisualMoney(OfflinePlayer p) {
     DecimalFormat df = new DecimalFormat("#,###.##");
     if (yml.isSet(p.getUniqueId().toString())) {
       double a = yml.getDouble(p.getUniqueId().toString());
@@ -77,25 +77,25 @@ public class MoneyAPI {
     return df.format(0.0D);
   }
   
-  public static void setBitcoins(OfflinePlayer p, double amount) {
+  public static void setMoney(OfflinePlayer p, double amount) {
     yml.set(p.getUniqueId().toString(), amount);
     fileBuilder.save();
   }
   
-  public static void resetBitcoins(OfflinePlayer p) {
+  public static void resetMoney(OfflinePlayer p) {
     yml.set(p.getUniqueId().toString(), 0);
     fileBuilder.save();
   }
   
-  public static void addBitcoins(OfflinePlayer p, double amount) {
-    setBitcoins(p, getBitcoins(p) + amount);
+  public static void addMoney(OfflinePlayer p, double amount) {
+    setMoney(p, getMoney(p) + amount);
   }
   
-  public static void removeBitcoins(OfflinePlayer p, double amount) {
-    setBitcoins(p, getBitcoins(p) - amount);
+  public static void removeMoney(OfflinePlayer p, double amount) {
+    setMoney(p, getMoney(p) - amount);
   }
   
-  public static boolean hasBitcoins(OfflinePlayer p, double amount) {
-      return getBitcoins(p) == amount || getBitcoins(p) >= amount;
+  public static boolean hasMoney(OfflinePlayer p, double amount) {
+      return getMoney(p) == amount || getMoney(p) >= amount;
   }
 }
