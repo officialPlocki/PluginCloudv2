@@ -26,7 +26,7 @@
       <module name="bansystem-bungeecord" target="1.8" />
       <module name="bansystem-common" target="1.8" />
       <module name="bansystem-paper" target="1.8" />
-      <module name="core-bungeecord" target="1.5" />
+      <module name="core-bungeecord" target="1.8" />
       <module name="core-common" target="1.5" />
       <module name="core-spigot" target="1.5" />
       <module name="GameAPI" target="1.8" />
