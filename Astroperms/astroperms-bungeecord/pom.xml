@@ -4,12 +4,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>ro.menast</groupId>
-        <artifactId>astroperms</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
-
     <artifactId>astroperms-bungeecord</artifactId>
     <packaging>jar</packaging>
 
@@ -47,12 +41,6 @@
             <artifactId>bungeecord-api</artifactId>
             <version>1.16-R0.4</version>
             <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>ro.menast</groupId>
-            <artifactId>core-bungeecord</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

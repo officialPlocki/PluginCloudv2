@@ -1,7 +1,7 @@
 package me.refluxo.bansystem.commands;
 
 import me.refluxo.bansystem.utils.ban.BanAPI;
-import me.refluxo.core.MenBungeeCordCore;
+import me.refluxo.core.BungeeCordCore;
 import me.refluxo.libary.bungee.utils.player.Player;
 import me.refluxo.libary.bungee.utils.player.PlayerAPI;
 import me.refluxo.libary.bungee.utils.project.ProjectManager;
@@ -18,7 +18,7 @@ public class BanInfoCommand extends Command {
     public void execute(CommandSender commandSender, String[] strings) {
 
         BanAPI banAPI = new BanAPI();
-        ProjectManager projectManager = MenBungeeCordCore.getProjectManager();
+        ProjectManager projectManager = BungeeCordCore.getProjectManager();
         PlayerAPI playerAPI = new PlayerAPI(new Player(commandSender.getName()).makeStringToUUID());
         if(strings.length==0) {
             if(banAPI.isBanned(new Player(commandSender.getName()).makeStringToUUID())) {

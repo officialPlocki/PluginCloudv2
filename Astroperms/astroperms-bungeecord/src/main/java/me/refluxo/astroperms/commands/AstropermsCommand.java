@@ -2,7 +2,7 @@ package me.refluxo.astroperms.commands;
 
 import me.refluxo.astroperms.api.permissions.AstropermsGroupAPI;
 import me.refluxo.astroperms.api.permissions.AstropermsPlayerAPI;
-import me.refluxo.core.MenBungeeCordCore;
+import me.refluxo.core.BungeeCordCore;
 import me.refluxo.libary.bungee.utils.language.LanguageAPI;
 import me.refluxo.libary.bungee.utils.player.Player;
 import me.refluxo.libary.bungee.utils.player.PlayerAPI;
@@ -22,7 +22,7 @@ public class AstropermsCommand extends Command {
 
     @Override
     public void execute(CommandSender commandSender, String[] strings) {
-        ProjectManager projectManager = MenBungeeCordCore.getProjectManager();
+        ProjectManager projectManager = BungeeCordCore.getProjectManager();
         PlayerAPI playerAPI = new PlayerAPI(new Player(((ProxiedPlayer) commandSender).getUniqueId().toString()));
         AstropermsPlayerAPI astroPlayer = new AstropermsPlayerAPI(new Player(((ProxiedPlayer) commandSender).getUniqueId().toString()));
         AstropermsGroupAPI astroGroup = new AstropermsGroupAPI(astroPlayer.getGroupOfPlayer());

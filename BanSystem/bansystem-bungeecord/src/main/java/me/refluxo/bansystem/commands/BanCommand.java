@@ -1,7 +1,7 @@
 package me.refluxo.bansystem.commands;
 
 import me.refluxo.bansystem.utils.ban.BanAPI;
-import me.refluxo.core.MenBungeeCordCore;
+import me.refluxo.core.BungeeCordCore;
 import me.refluxo.libary.bungee.utils.player.Player;
 import me.refluxo.libary.bungee.utils.player.PlayerAPI;
 import me.refluxo.libary.bungee.utils.project.ProjectManager;
@@ -25,7 +25,7 @@ public class BanCommand extends Command {
             BanAPI banAPI = new BanAPI();
             ProxiedPlayer proxiedPlayer = BungeeCord.getInstance().getPlayer(commandSender.getName());
             PlayerAPI player = new PlayerAPI(new Player(proxiedPlayer));
-            ProjectManager projectManager = MenBungeeCordCore.getProjectManager();
+            ProjectManager projectManager = BungeeCordCore.getProjectManager();
             if(strings.length <= 1 || strings.length >= 4) {
                 proxiedPlayer.sendMessage(new TextComponent(projectManager.getMessage("ban.help", player.getLanguage())));
             } else if(strings.length==2) {
@@ -64,7 +64,7 @@ public class BanCommand extends Command {
                 }
             }
         } else {
-            commandSender.sendMessage(new TextComponent(MenBungeeCordCore.getProjectManager().getMessage("general.nopermission", new PlayerAPI(new Player(BungeeCord.getInstance().getPlayer(commandSender.getName()).getUniqueId().toString())).getLanguage())));
+            commandSender.sendMessage(new TextComponent(BungeeCordCore.getProjectManager().getMessage("general.nopermission", new PlayerAPI(new Player(BungeeCord.getInstance().getPlayer(commandSender.getName()).getUniqueId().toString())).getLanguage())));
         }
     }
 

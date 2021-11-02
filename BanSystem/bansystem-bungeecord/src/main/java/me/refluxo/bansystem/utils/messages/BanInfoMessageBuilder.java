@@ -2,7 +2,7 @@ package me.refluxo.bansystem.utils.messages;
 
 import me.refluxo.bansystem.utils.ban.BanAPI;
 import me.refluxo.bansystem.utils.ban.IBan;
-import me.refluxo.core.MenBungeeCordCore;
+import me.refluxo.core.BungeeCordCore;
 import me.refluxo.libary.bungee.utils.language.LanguageAPI;
 import me.refluxo.libary.bungee.utils.project.ProjectManager;
 import net.md_5.bungee.BungeeCord;
@@ -13,7 +13,7 @@ public class BanInfoMessageBuilder {
         String s = "";
         BanAPI banAPI = new BanAPI();
         IBan iBan = banAPI.getBanInfo(banID);
-        ProjectManager projectManager = MenBungeeCordCore.getProjectManager();
+        ProjectManager projectManager = BungeeCordCore.getProjectManager();
 
         String first = projectManager.getMessage("ban.bannedat", lang).replaceAll("%date%", iBan.bannedAt().toGMTString()+" GMT");
         String second = projectManager.getMessage("ban.bannedto", lang).replaceAll("%date%", iBan.unbanAt().toGMTString()+" GMT");

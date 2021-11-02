@@ -1,6 +1,6 @@
 name: AuthBungee
 author: Refluxo Development
-version: ${project.build}
+version: 1.0
 main: me.refluxo.auth.bungee.AuthBungee
 depends:
   - Libary

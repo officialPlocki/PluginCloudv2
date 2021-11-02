@@ -7,14 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bansystem-bungeecord" />
-        <module name="libary" />
         <module name="core-spigot" />
         <module name="GameAPI" />
         <module name="astroperms-paper" />
         <module name="bansystem-paper" />
         <module name="Auth" />
+        <module name="LibaryPaper" />
+        <module name="LibarySpigot" />
         <module name="astroperms-bungeecord" />
         <module name="core-bungeecord" />
+        <module name="LibaryBungee" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +33,9 @@
       <module name="core-spigot" target="1.5" />
       <module name="GameAPI" target="1.8" />
       <module name="libary" target="1.8" />
+      <module name="LibaryBungee" target="1.8" />
+      <module name="LibaryPaper" target="1.8" />
+      <module name="LibarySpigot" target="1.8" />
       <module name="paused" target="1.5" />
       <module name="refluxo-core" target="1.5" />
     </bytecodeTargetLevel>

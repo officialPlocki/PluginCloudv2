@@ -1,0 +1,4 @@
+main: me.refluxo.libary.bungee.LibaryBungee
+author: Refluxo Development
+version: '${project.version}'
+name: Libary

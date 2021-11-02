@@ -1,0 +1,9 @@
+name: Libary
+version: '${project.version}'
+main: me.refluxo.libary.spigot.LibarySpigot
+api-version: 1.13
+author: Refluxo Development
+softdepend:
+  - Vault
+depend:
+  - ProtocolLib

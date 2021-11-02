@@ -1,4 +1,0 @@
-main: ro.menast.libary.bungee.LibaryBungee
-author: Menastro Development
-version: '${project.version}'
-name: MenLibary

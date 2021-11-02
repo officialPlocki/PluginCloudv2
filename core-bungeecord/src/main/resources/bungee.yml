@@ -1,6 +1,6 @@
-name: MenBungeeCordCore
+name: BungeeCordCore
 version: '${project.version}'
-main: ro.menast.core.MenBungeeCordCore
+main: me.refluxo.core.MenBungeeCordCore
 depends:
-  - MenLibary
+  - Libary
   - Protocolize

@@ -1,6 +1,8 @@
-name: MenastroSpigotCore
+name: SpigotCore
 version: '${project.version}'
-main: ro.menast.core.MenastroSpigotCore
+main: me.refluxo.core.SpigotCore
 api-version: 1.13
 prefix: CORE
-author: Menastro Development
+author: Refluxo Development
+depend:
+  - Libary

@@ -17,7 +17,9 @@
     <file url="file://$PROJECT_DIR$/core-bungeecord/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-spigot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-spigot/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/libary/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/libary/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libary/LibaryBungee/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libary/LibaryBungee/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libary/LibarySpigot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libary/LibarySpigot/src/main/resources" charset="UTF-8" />
   </component>
 </project>

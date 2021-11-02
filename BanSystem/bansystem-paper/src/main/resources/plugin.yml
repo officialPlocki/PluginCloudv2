@@ -1,4 +1,4 @@
 name: Bansystem
 version: '${project.version}'
-main: ro.menast.bansystem.BansystemPaper
-api-version: 1.17
+main: me.refluxo.bansystem.BansystemPaper
+api-version: 1.13

@@ -1,13 +1,11 @@
 name: GameAPI
 version: '${project.version}'
-main: ro.menast.gameapi.GameAPI
+main: me.refluxo.gameapi.GameAPI
 api-version: 1.13
 prefix: GAMEAPI
 load: STARTUP
 loadbefore:
-  - MenLibary
+  - Libary
 depend:
-  - MenLibary
-authors:
-  - Menastro Development
-description: The Menastro GameAPI for Spigot
+  - Libary
+author: Refluxo Development
