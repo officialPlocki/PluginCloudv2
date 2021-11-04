@@ -6,36 +6,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bansystem-bungeecord" />
-        <module name="core-spigot" />
         <module name="GameAPI" />
-        <module name="astroperms-paper" />
-        <module name="bansystem-paper" />
-        <module name="Auth" />
-        <module name="LibaryPaper" />
-        <module name="LibarySpigot" />
-        <module name="astroperms-bungeecord" />
-        <module name="core-bungeecord" />
+        <module name="CorePaper" />
         <module name="LibaryBungee" />
+        <module name="CoreBungee" />
+      </profile>
+      <profile name="Annotation profile for Libary" enabled="true">
+        <sourceOutputDir name="../libary/LibarySpigot/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../libary/LibarySpigot/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="LibaryPaper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="astroperms" target="1.5" />
       <module name="astroperms-bungeecord" target="1.8" />
       <module name="astroperms-common" target="1.8" />
-      <module name="astroperms-paper" target="1.8" />
+      <module name="astroperms-paper" target="1.5" />
       <module name="Auth" target="1.8" />
       <module name="BanSystem" target="1.5" />
       <module name="bansystem-bungeecord" target="1.8" />
       <module name="bansystem-common" target="1.8" />
-      <module name="bansystem-paper" target="1.8" />
+      <module name="bansystem-paper" target="1.5" />
+      <module name="core" target="1.5" />
       <module name="core-bungeecord" target="1.8" />
       <module name="core-common" target="1.5" />
       <module name="core-spigot" target="1.5" />
+      <module name="CoreBungee" target="1.8" />
+      <module name="CorePaper" target="1.8" />
       <module name="GameAPI" target="1.8" />
       <module name="libary" target="1.8" />
       <module name="LibaryBungee" target="1.8" />
       <module name="LibaryPaper" target="1.8" />
-      <module name="LibarySpigot" target="1.8" />
       <module name="paused" target="1.5" />
       <module name="refluxo-core" target="1.5" />
     </bytecodeTargetLevel>

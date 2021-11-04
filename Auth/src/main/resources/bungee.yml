@@ -1,7 +1,0 @@
-name: AuthBungee
-author: Refluxo Development
-version: 1.0
-main: me.refluxo.auth.bungee.AuthBungee
-depends:
-  - Libary
-description: Refluxo Authentification

@@ -1,0 +1,3 @@
+name: CoreBungee
+version: '${project.version}'
+main: me.refluxo.core.bungee.CoreBungee

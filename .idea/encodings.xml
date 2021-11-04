@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Auth/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Auth/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CoreBungee/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CoreBungee/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CorePaper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CorePaper/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GameAPI/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GameAPI/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-bungeecord/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-bungeecord/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-spigot/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-spigot/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/libary/LibaryBungee/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/libary/LibaryBungee/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/libary/LibarySpigot/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/libary/LibarySpigot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LibaryBungee/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LibaryBungee/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LibaryPaper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LibaryPaper/src/main/resources" charset="UTF-8" />
   </component>
 </project>

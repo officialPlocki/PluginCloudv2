@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+    <output url="file://$MODULE_DIR$/../../astroperms-paper/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../../astroperms-paper/target/test-classes" />
+    <content url="file://$MODULE_DIR$/../../astroperms-paper">
+      <sourceFolder url="file://$MODULE_DIR$/../../astroperms-paper/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../astroperms-paper/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../astroperms-paper/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../astroperms-paper/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../astroperms-paper/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="LibarySpigot" />
+    <orderEntry type="library" name="Maven: com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT" level="project" />
+  </component>
+</module>

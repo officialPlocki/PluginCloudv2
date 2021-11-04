@@ -14,14 +14,13 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/libary/pom.xml" />
         <option value="$PROJECT_DIR$/GameAPI/pom.xml" />
-        <option value="$PROJECT_DIR$/Astroperms/pom.xml" />
         <option value="$PROJECT_DIR$/BanSystem/pom.xml" />
-        <option value="$PROJECT_DIR$/Auth/pom.xml" />
         <option value="$PROJECT_DIR$/libary/LibaryBungee/pom.xml" />
         <option value="$PROJECT_DIR$/libary/LibarySpigot/pom.xml" />
+        <option value="$PROJECT_DIR$/CorePaper/pom.xml" />
+        <option value="$PROJECT_DIR$/CoreBungee/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

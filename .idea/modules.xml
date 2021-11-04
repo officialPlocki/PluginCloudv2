@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Auth/Auth.iml" filepath="$PROJECT_DIR$/Auth/Auth.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BanSystem/BanSystem.iml" filepath="$PROJECT_DIR$/BanSystem/BanSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreBungee/CoreBungee.iml" filepath="$PROJECT_DIR$/CoreBungee/CoreBungee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CorePaper/CorePaper.iml" filepath="$PROJECT_DIR$/CorePaper/CorePaper.iml" />
       <module fileurl="file://$PROJECT_DIR$/GameAPI/GameAPI.iml" filepath="$PROJECT_DIR$/GameAPI/GameAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/libary/LibaryBungee/LibaryBungee.iml" filepath="$PROJECT_DIR$/libary/LibaryBungee/LibaryBungee.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libary/LibaryBungee/LibaryPaper.iml" filepath="$PROJECT_DIR$/libary/LibaryBungee/LibaryPaper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libary/LibarySpigot/LibarySpigot.iml" filepath="$PROJECT_DIR$/libary/LibarySpigot/LibarySpigot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Astroperms/astroperms-bungeecord/astroperms-bungeecord.iml" filepath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/astroperms-bungeecord.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Astroperms/astroperms-paper/astroperms-paper.iml" filepath="$PROJECT_DIR$/Astroperms/astroperms-paper/astroperms-paper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BanSystem/bansystem-bungeecord/bansystem-bungeecord.iml" filepath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/bansystem-bungeecord.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BanSystem/bansystem-paper/bansystem-paper.iml" filepath="$PROJECT_DIR$/BanSystem/bansystem-paper/bansystem-paper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" filepath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core-spigot/core-spigot.iml" filepath="$PROJECT_DIR$/core-spigot/core-spigot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Astroperms/paused.iml" filepath="$PROJECT_DIR$/Astroperms/paused.iml" />
-      <module fileurl="file://$PROJECT_DIR$/refluxo-core.iml" filepath="$PROJECT_DIR$/refluxo-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libary/LibarySpigot/LibaryPaper.iml" filepath="$PROJECT_DIR$/libary/LibarySpigot/LibaryPaper.iml" />
     </modules>
   </component>
 </project>

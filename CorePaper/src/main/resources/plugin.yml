@@ -1,0 +1,4 @@
+name: CorePaper
+version: '${project.version}'
+main: me.refluxo.core.paper.CorePaper
+api-version: 1.16
