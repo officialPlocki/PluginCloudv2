@@ -21,7 +21,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../LibaryPaper/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../LibaryPaper/target" />
     </content>
-    <orderEntry type="jdk" jdkName="openjdk-16" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: net.kyori:adventure-api:4.7.0" level="project" />
