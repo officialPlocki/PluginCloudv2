@@ -9,8 +9,8 @@
         <module name="CorePaper" />
         <module name="LibaryBungee" />
         <module name="GameAPI" />
-        <module name="CoreBungee" />
         <module name="LibaryPaper" />
+        <module name="CoreBungee" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
