@@ -6,15 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="GameAPI" />
         <module name="CorePaper" />
         <module name="LibaryBungee" />
+        <module name="GameAPI" />
         <module name="CoreBungee" />
-      </profile>
-      <profile name="Annotation profile for Libary" enabled="true">
-        <sourceOutputDir name="../libary/LibarySpigot/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../libary/LibarySpigot/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="LibaryPaper" />
       </profile>
     </annotationProcessing>

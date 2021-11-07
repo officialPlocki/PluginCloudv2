@@ -14,6 +14,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
@@ -62,6 +63,14 @@ public class SettingsCommand implements CommandExecutor, Listener {
                     event.getWhoClicked().sendMessage(CorePaper.getProjectManager().getMessage("core.settings.rejoin", player.getLanguage()));
                 }
             }
+        }
+    }
+
+    @EventHandler
+    public void onDrop(PlayerDropItemEvent event) {
+        if(event.getPlayer().isSneaking()) {
+            event.setCancelled(true);
+            event.getPlayer().openInventory(getInventory(new PlayerAPI(event.getPlayer().getUniqueId().toString())));
         }
     }
 

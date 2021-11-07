@@ -9,208 +9,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="separated libary for bungee and paper, initial release for auth">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CoreBungee.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CorePaper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GameAPI.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_destroystokyo_paper_paper_api_1_16_5_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_MilkBowl_VaultAPI_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mojang_authlib_1_5_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_api_1_17_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_chat_1_17_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_config_1_17_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_event_1_17_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_protocol_1_17_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_65_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_65_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_65_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_65_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_65_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_65_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__me_refluxo_LibaryPaper_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_kyori_adventure_api_4_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_kyori_adventure_key_4_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_kyori_adventure_text_serializer_gson_4_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_kyori_adventure_text_serializer_legacy_4_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_kyori_adventure_text_serializer_plain_4_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_kyori_examination_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_kyori_examination_string_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_brigadier_1_0_16_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_16_R0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_trove4j_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_13_1_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_20_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_16_5_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__se_llbit_jo_nbt_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreBungee/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreBungee/src/main/java/me/refluxo/core/bungee/CoreBungee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreBungee/src/main/resources/bungee.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorePaper/src/main/java/me/refluxo/core/paper/CorePaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorePaper/src/main/java/me/refluxo/core/paper/commands/GamemodeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorePaper/src/main/java/me/refluxo/core/paper/commands/SettingsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorePaper/src/main/java/me/refluxo/core/paper/commands/VanishCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CorePaper/src/main/resources/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astroperms-bungeecord/astroperms-bungeecord.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astroperms-paper/astroperms-paper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bansystem-bungeecord/bansystem-bungeecord.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bansystem-paper/bansystem-paper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/LibaryBungee/LibaryBungee.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libary/LibarySpigot/LibaryPaper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CoreBungee/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BungeeCordCore.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Libary.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpigotCore.xml" beforeDir="false" />
+    <list default="true" id="47d8c18e-1cab-465d-aa0f-d9832af438bb" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_dytanic_cloudnet_cloudnet_common_3_4_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_dytanic_cloudnet_cloudnet_driver_3_4_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_65_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_65_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_65_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_65_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_28_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_21_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/cloud/GameInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_api_1_17_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_api_1_17_R0_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_chat_1_17_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_chat_1_17_R0_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_config_1_17_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_config_1_17_R0_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_event_1_17_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_event_1_17_R0_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_protocol_1_17_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_waterfallmc_waterfall_protocol_1_17_R0_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__me_refluxo_LibaryPaper_1_0_SNAPSHOT.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-bungeecord/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/me/refluxo/astroperms/api/permissions/AstropermsGroupAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-bungeecord/src/main/java/me/refluxo/astroperms/api/permissions/AstropermsGroupAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/me/refluxo/astroperms/api/permissions/AstropermsMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-bungeecord/src/main/java/me/refluxo/astroperms/api/permissions/AstropermsMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/me/refluxo/astroperms/api/permissions/AstropermsPlayerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-bungeecord/src/main/java/me/refluxo/astroperms/api/permissions/AstropermsPlayerAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/me/refluxo/astroperms/api/permissions/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-bungeecord/src/main/java/me/refluxo/astroperms/api/permissions/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/me/refluxo/astroperms/api/permissions/PermissionableGroupBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-bungeecord/src/main/java/me/refluxo/astroperms/api/permissions/PermissionableGroupBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/java/me/refluxo/astroperms/commands/AstropermsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-bungeecord/src/main/java/me/refluxo/astroperms/commands/AstropermsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-bungeecord/src/main/resources/bungee.yml" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-bungeecord/src/main/resources/bungee.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-paper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-paper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/java/me/refluxo/astroperms/api/permissions/AstropermsGroupAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-paper/src/main/java/me/refluxo/astroperms/api/permissions/AstropermsGroupAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/java/me/refluxo/astroperms/api/permissions/AstropermsMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-paper/src/main/java/me/refluxo/astroperms/api/permissions/AstropermsMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/java/me/refluxo/astroperms/api/permissions/AstropermsPlayerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-paper/src/main/java/me/refluxo/astroperms/api/permissions/AstropermsPlayerAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/java/me/refluxo/astroperms/api/permissions/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-paper/src/main/java/me/refluxo/astroperms/api/permissions/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/java/me/refluxo/astroperms/api/permissions/PermissionableGroupBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-paper/src/main/java/me/refluxo/astroperms/api/permissions/PermissionableGroupBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Astroperms/astroperms-paper/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/astroperms-paper/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CorePaper/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CorePaper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/me/refluxo/auth/bungee/AuthBungee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/me/refluxo/auth/bungee/listener/JoinListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/me/refluxo/auth/bungee/listener/QuitListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/me/refluxo/auth/bungee/util/PlayerManagerBungee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/me/refluxo/auth/paper/AuthPaper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/me/refluxo/auth/paper/listener/JoinListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/me/refluxo/auth/paper/util/PlayerManagerPaper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/src/main/resources/bungee.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/src/main/resources/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-bungeecord/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/BansystemBungeeCord.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/BansystemBungeeCord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/commands/BanCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/commands/BanCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/commands/BanInfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/commands/BanInfoCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/utils/ban/BanAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/utils/ban/BanAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/utils/ban/BanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/utils/ban/BanBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/utils/ban/BanMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/utils/ban/BanMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/utils/ban/IBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/utils/ban/IBan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/utils/messages/BanInfoMessageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-bungeecord/src/main/java/me/refluxo/bansystem/utils/messages/BanInfoMessageBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-bungeecord/src/main/resources/bungee.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-bungeecord/src/main/resources/bungee.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-paper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-paper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/java/me/refluxo/bansystem/BansystemPaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-paper/src/main/java/me/refluxo/bansystem/BansystemPaper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/java/me/refluxo/bansystem/utils/ban/BanAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-paper/src/main/java/me/refluxo/bansystem/utils/ban/BanAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/java/me/refluxo/bansystem/utils/ban/BanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-paper/src/main/java/me/refluxo/bansystem/utils/ban/BanBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/java/me/refluxo/bansystem/utils/ban/BanMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-paper/src/main/java/me/refluxo/bansystem/utils/ban/BanMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/java/me/refluxo/bansystem/utils/ban/IBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-paper/src/main/java/me/refluxo/bansystem/utils/ban/IBan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/bansystem-paper/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bansystem-paper/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BanSystem/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core-bungeecord/core-bungeecord.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-spigot/core-spigot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core-spigot/core-spigot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/spigot-1.16.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/waterfall-1.17-448.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/LibaryBungee.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/LibaryBungee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/listener/JoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/listener/JoinListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/FileBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/FileBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/YamlConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/YamlConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/ConfigurationOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/ConfigurationOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/ConfigurationSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/ConfigurationSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/ConfigurationSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/ConfigurationSerializable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/ConfigurationSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/ConfigurationSerialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/DelegateDeserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/DelegateDeserialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/FileConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/FileConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/FileConfigurationOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/FileConfigurationOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/MemoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/MemoryConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/MemoryConfigurationOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/MemoryConfigurationOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/MemorySection.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/MemorySection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/SerializableAs.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/SerializableAs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/YamlConfigurationOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/YamlConfigurationOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/YamlConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/YamlConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/YamlRepresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/filebuilder/files/bukkit/YamlRepresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/language/LanguageAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/language/LanguageAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/money/CoinsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/money/CoinsAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/mysql/MySQLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/mysql/MySQLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/player/PlayerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/player/PlayerAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/project/PermissionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/project/PermissionList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/project/ProjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/project/ProjectManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/OfflinePlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/OfflinePlayerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/OnlinePlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/OnlinePlayerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/PlayerDataMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/PlayerDataMirror.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/builder/OfflinePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/builder/OfflinePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/builder/OfflinePlayerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/builder/OfflinePlayerBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/builder/OnlinePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/builder/OnlinePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/builder/OnlinePlayerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/bungee/utils/sync/builder/OnlinePlayerBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/java/me/refluxo/libary/threaded/AsyncThreadScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/java/me/refluxo/libary/threaded/AsyncThreadScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibaryBungee/src/main/resources/bungee.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryBungee/src/main/resources/bungee.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/LibarySpigot.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/LibarySpigot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/apis/ArmorstandRotationAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/apis/ArmorstandRotationAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/apis/ItemArmorstandAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/apis/ItemArmorstandAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/apis/ReplayAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/apis/ReplayAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/bungeecord/BungeecordAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/bungeecord/BungeecordAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/listener/JoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/listener/JoinListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/Version.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/filebuilder/FileBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/filebuilder/FileBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/inventories/InventoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/inventories/InventoryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/inventories/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/inventories/ItemBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/inventories/PlayerHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/inventories/PlayerHead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/language/LanguageAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/language/LanguageAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/money/CoinsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/money/CoinsAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/money/MoneyAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/money/MoneyAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/money/VaultEconomy.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/money/VaultEconomy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/mysql/MySQLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/mysql/MySQLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/nick/NickMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/nick/NickMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/player/PlayerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/player/PlayerAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/project/PermissionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/project/PermissionList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/project/ProjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/project/ProjectManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/sync/OfflinePlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/sync/OfflinePlayerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/sync/OnlinePlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/sync/OnlinePlayerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/sync/PlayerDataMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/sync/PlayerDataMirror.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/sync/builder/OfflinePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/sync/builder/OfflinePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/sync/builder/OfflinePlayerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/sync/builder/OfflinePlayerBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/sync/builder/OnlinePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/sync/builder/OnlinePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/spigot/utils/sync/builder/OnlinePlayerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/spigot/utils/sync/builder/OnlinePlayerBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/java/me/refluxo/libary/threaded/AsyncThreadScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/java/me/refluxo/libary/threaded/AsyncThreadScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CorePaper/src/main/java/me/refluxo/core/paper/commands/SettingsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/CorePaper/src/main/java/me/refluxo/core/paper/commands/SettingsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryPaper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryPaper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary/LibarySpigot/LibaryPaper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/libary/LibarySpigot/LibaryPaper.iml" afterDir="false" />
     </list>
     <list id="4d3256c0-41e9-40ce-b003-76d29b6b099d" name="Changes by EinfachKonrad-A" comment="Changes by EinfachKonrad-A" />
     <list id="89913761-a681-4677-8259-42cf83f9d525" name="Changes by Marc Birnthaler" comment="Changes by Marc Birnthaler nd EinfachKonrad-A" />
@@ -986,7 +809,9 @@
       <workItem from="1635874348477" duration="578000" />
       <workItem from="1635898386214" duration="4006000" />
       <workItem from="1635945606379" duration="4798000" />
-      <workItem from="1636036471717" duration="1087000" />
+      <workItem from="1636036471717" duration="2387000" />
+      <workItem from="1636068319515" duration="834000" />
+      <workItem from="1636300803761" duration="5310000" />
     </task>
     <task id="LOCAL-00001" summary="init 2">
       <created>1630337792212</created>
@@ -1149,7 +974,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635817633247</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update">
+      <created>1636039014514</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1636039014514</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1242,7 +1074,8 @@
     <MESSAGE value="updated ro.menast to me.refluxo" />
     <MESSAGE value="configured for export" />
     <MESSAGE value="separated libary for bungee and paper, initial release for auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="separated libary for bungee and paper, initial release for auth" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
